@@ -1,0 +1,17 @@
+# macOS / OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Node (if added later)
+node_modules/
+npm-debug.log
+
+# Build / temp
+dist/
+.cache/
+*.zip
