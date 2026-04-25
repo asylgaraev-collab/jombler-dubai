@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Недвижимость Дубай | Руслан Асылгараев — RERA-лицензированный брокер</title>
-    <meta name="description" content="Подбор недвижимости в Дубае под инвестиции и Golden Visa. 4 года на рынке ОАЭ, 50+ сделок, прямая работа с Emaar, DAMAC, Sobha. Off-market объекты от $500K до $10M+.">
+    <meta name="description" data-i18n-content="meta.home.desc" content="Подбор недвижимости в Дубае под инвестиции и Golden Visa. 4 года на рынке ОАЭ, 50+ сделок, прямая работа с Emaar, DAMAC, Sobha. Off-market объекты от $500K до $10M+.">
     <meta name="keywords" content="недвижимость Дубай, купить квартиру в Дубае, инвестиции в недвижимость ОАЭ, брокер Palm Jumeirah, off-market Dubai, Golden Visa Дубай, недвижимость Эмираты">
     <meta name="author" content="Ruslan Asylgaraev">
     <meta name="robots" content="index, follow">
@@ -12,8 +12,8 @@
 
     <meta property="og:type" content="website">
     <meta property="og:locale" content="ru_RU">
-    <meta property="og:title" content="Недвижимость Дубай | Руслан Асылгараев — RERA-лицензированный брокер">
-    <meta property="og:description" content="Подбор недвижимости в Дубае под инвестиции и Golden Visa. 4 года на рынке ОАЭ, 50+ сделок, прямая работа с Emaar, DAMAC, Sobha. Off-market объекты от $500K до $10M+.">
+    <meta property="og:title" data-i18n-content="meta.home.title" content="Недвижимость Дубай | Руслан Асылгараев — RERA-лицензированный брокер">
+    <meta property="og:description" data-i18n-content="meta.home.desc" content="Подбор недвижимости в Дубае под инвестиции и Golden Visa. 4 года на рынке ОАЭ, 50+ сделок, прямая работа с Emaar, DAMAC, Sobha. Off-market объекты от $500K до $10M+.">
     <meta property="og:image" content="https://jombler-dubai.netlify.app/og-image.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
@@ -22,8 +22,8 @@
     <meta property="og:site_name" content="Ruslan Asylgaraev — Dubai Real Estate">
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Недвижимость Дубай | Руслан Асылгараев — RERA-лицензированный брокер">
-    <meta name="twitter:description" content="Подбор недвижимости в Дубае под инвестиции и Golden Visa. 4 года, 50+ сделок, off-market объекты от $500K.">
+    <meta name="twitter:title" data-i18n-content="meta.home.title" content="Недвижимость Дубай | Руслан Асылгараев — RERA-лицензированный брокер">
+    <meta name="twitter:description" data-i18n-content="meta.home.descShort" content="Подбор недвижимости в Дубае под инвестиции и Golden Visa. 4 года, 50+ сделок, off-market объекты от $500K.">
     <meta name="twitter:image" content="https://jombler-dubai.netlify.app/og-image.jpg">
 
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
@@ -151,24 +151,28 @@
     }
     </script>
 </head>
-<body>
+<body data-page="home" data-title-key="meta.home.title">
 
 <header class="header" id="header">
     <div class="container header__inner">
-        <a href="index.html" class="logo" aria-label="На главную">
+        <a href="index.html" class="logo" data-i18n-aria-label="logo.aria" aria-label="На главную">
             <span class="logo__mark">RA</span>
             <span class="logo__text">Ruslan Asylgaraev<span class="logo__sub">Dubai Real Estate</span></span>
         </a>
-        <nav class="nav" id="nav" aria-label="Основная навигация">
-            <a href="index.html" class="nav__link nav__link--active">Главная</a>
-            <a href="services.html" class="nav__link">Услуги</a>
-            <a href="contacts.html" class="nav__link">Контакты</a>
+        <nav class="nav" id="nav" data-i18n-aria-label="header.ariaNav" aria-label="Основная навигация">
+            <a href="index.html" class="nav__link nav__link--active" data-i18n="nav.home">Главная</a>
+            <a href="services.html" class="nav__link" data-i18n="nav.services">Услуги</a>
+            <a href="contacts.html" class="nav__link" data-i18n="nav.contacts">Контакты</a>
             <a href="https://wa.me/971545441060" class="btn btn--header-cta" target="_blank" rel="noopener" data-event="whatsapp_click" data-source="header">
                 <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.47 14.38c-.3-.15-1.74-.86-2.01-.96-.27-.1-.46-.15-.66.15-.2.3-.76.96-.93 1.16-.17.2-.34.22-.64.07-.3-.15-1.25-.46-2.38-1.47-.88-.78-1.47-1.75-1.64-2.05-.17-.3-.02-.46.13-.61.13-.13.3-.34.46-.51.15-.17.2-.3.3-.51.1-.2.05-.38-.02-.53-.07-.15-.66-1.6-.91-2.18-.24-.57-.48-.49-.66-.5-.17-.01-.37-.01-.56-.01-.2 0-.51.07-.78.38-.27.3-1.02 1-1.02 2.45s1.05 2.85 1.2 3.05c.15.2 2.07 3.16 5.02 4.43.7.3 1.25.48 1.68.62.7.22 1.34.19 1.85.12.57-.08 1.74-.71 1.99-1.4.24-.69.24-1.28.17-1.4-.07-.12-.27-.2-.56-.34zM12 2.04c-5.5 0-9.96 4.46-9.96 9.96 0 1.76.46 3.48 1.34 5l-1.42 5.18 5.31-1.39c1.46.8 3.1 1.22 4.74 1.22h.01c5.5 0 9.96-4.46 9.96-9.96 0-2.66-1.04-5.16-2.92-7.04C17.16 3.08 14.66 2.04 12 2.04z"/></svg>
-                <span>Связаться с брокером</span>
+                <span data-i18n="header.cta">Связаться с брокером</span>
             </a>
         </nav>
-        <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false">
+        <div class="lang-switch" role="group" aria-label="Language">
+            <button type="button" class="lang-btn is-active" data-lang="ru" aria-pressed="true">RU</button>
+            <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <button class="burger" id="burger" data-i18n-aria-label="burger.openLabel" aria-label="Открыть меню" aria-expanded="false">
             <span></span><span></span><span></span>
         </button>
     </div>
@@ -180,12 +184,12 @@
         <div class="hero__bg" style="background-image: url('https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1920&q=80');"></div>
         <div class="hero__overlay"></div>
         <div class="container hero__content">
-            <span class="eyebrow reveal">Premium Real Estate · Dubai · UAE</span>
-            <h1 class="hero__title reveal">Ваш личный брокер<br>люксовой недвижимости<br>в Арабских Эмиратах</h1>
-            <p class="hero__lead reveal">RERA-лицензированный брокер. 4 года на рынке ОАЭ, 50+ закрытых сделок, прямая работа с 20+ застройщиками. Off-market объекты от $500K до $10M+.</p>
+            <span class="eyebrow reveal" data-i18n="home.hero.eyebrow">Premium Real Estate · Dubai · UAE</span>
+            <h1 class="hero__title reveal" data-i18n-html="home.hero.title">Ваш личный брокер<br>люксовой недвижимости<br>в Арабских Эмиратах</h1>
+            <p class="hero__lead reveal" data-i18n="home.hero.lead">RERA-лицензированный брокер. 4 года на рынке ОАЭ, 50+ закрытых сделок, прямая работа с 20+ застройщиками. Off-market объекты от $500K до $10M+.</p>
             <div class="hero__actions reveal">
-                <a href="#lead-magnet" class="btn btn--primary">Получить подборку за 24 часа</a>
-                <a href="https://wa.me/971545441060" class="btn btn--ghost" target="_blank" rel="noopener" data-event="whatsapp_click" data-source="hero">Написать в WhatsApp</a>
+                <a href="#lead-magnet" class="btn btn--primary" data-i18n="home.hero.ctaForm">Получить подборку за 24 часа</a>
+                <a href="https://wa.me/971545441060" class="btn btn--ghost" target="_blank" rel="noopener" data-event="whatsapp_click" data-source="hero" data-i18n="home.hero.ctaWa">Написать в WhatsApp</a>
             </div>
         </div>
         <div class="hero__scroll">
@@ -200,20 +204,20 @@
                 <img src="https://images.unsplash.com/photo-1582407947304-fd86f028f716?auto=format&fit=crop&w=1000&q=80" alt="Palm Jumeirah, Dubai" loading="lazy">
                 <div class="about__badge">
                     <strong>Dubai · UAE</strong>
-                    <span>Все Эмираты</span>
+                    <span data-i18n="home.about.badgeSub">Все Эмираты</span>
                 </div>
             </div>
             <div class="about__text reveal">
-                <span class="eyebrow">Обо мне</span>
-                <h2 class="section__title">Эксперт рынка<br>люксовой недвижимости</h2>
-                <p>Я — Руслан Асылгараев, частный брокер с лицензией RERA. 4 года работаю с инвесторами и покупателями из России, СНГ и Европы. Закрыл более 50 сделок в Дубае и Абу-Даби — от студий в JVC до пентхаусов на Palm Jumeirah.</p>
-                <p>Подбираю объекты под задачу: жильё для жизни, инвестиционные апартаменты с высокой доходностью, проекты от застройщиков на старте продаж и off-market объекты от частных владельцев.</p>
+                <span class="eyebrow" data-i18n="home.about.eyebrow">Обо мне</span>
+                <h2 class="section__title" data-i18n-html="home.about.title">Эксперт рынка<br>люксовой недвижимости</h2>
+                <p data-i18n="home.about.p1">Я — Руслан Асылгараев, частный брокер с лицензией RERA. 4 года работаю с инвесторами и покупателями из России, СНГ и Европы. Закрыл более 50 сделок в Дубае и Абу-Даби — от студий в JVC до пентхаусов на Palm Jumeirah.</p>
+                <p data-i18n="home.about.p2">Подбираю объекты под задачу: жильё для жизни, инвестиционные апартаменты с высокой доходностью, проекты от застройщиков на старте продаж и off-market объекты от частных владельцев.</p>
                 <ul class="about__points">
-                    <li><span>01</span>Прямой доступ к закрытому инвентарю 20+ застройщиков</li>
-                    <li><span>02</span>Юридически чистые сделки через DLD и эскроу-счета</li>
-                    <li><span>03</span>Стратегии для сохранения и роста капитала</li>
+                    <li><span>01</span><span data-i18n="home.about.point1">Прямой доступ к закрытому инвентарю 20+ застройщиков</span></li>
+                    <li><span>02</span><span data-i18n="home.about.point2">Юридически чистые сделки через DLD и эскроу-счета</span></li>
+                    <li><span>03</span><span data-i18n="home.about.point3">Стратегии для сохранения и роста капитала</span></li>
                 </ul>
-                <a href="contacts.html" class="link-arrow">Связаться со мной →</a>
+                <a href="contacts.html" class="link-arrow" data-i18n="home.about.cta">Связаться со мной →</a>
             </div>
         </div>
     </section>
@@ -221,8 +225,8 @@
     <section class="section services-preview">
         <div class="container">
             <div class="section__head reveal">
-                <span class="eyebrow">Что я предлагаю</span>
-                <h2 class="section__title">Полный спектр услуг<br>в недвижимости ОАЭ</h2>
+                <span class="eyebrow" data-i18n="home.services.eyebrow">Что я предлагаю</span>
+                <h2 class="section__title" data-i18n-html="home.services.title">Полный спектр услуг<br>в недвижимости ОАЭ</h2>
             </div>
             <div class="cards">
 
@@ -230,32 +234,32 @@
                     <div class="card__icon">
                         <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M8 22L24 8l16 14v18a2 2 0 0 1-2 2H10a2 2 0 0 1-2-2V22z"/><path d="M18 42V28h12v14"/></svg>
                     </div>
-                    <h3>Покупка</h3>
-                    <p>Подбор объекта под ваш бюджет, цели и стиль жизни. От апартаментов до вилл премиум-класса.</p>
+                    <h3 data-i18n="home.services.purchase.title">Покупка</h3>
+                    <p data-i18n="home.services.purchase.desc">Подбор объекта под ваш бюджет, цели и стиль жизни. От апартаментов до вилл премиум-класса.</p>
                 </article>
 
                 <article class="card reveal">
                     <div class="card__icon">
                         <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 36V18l18-10 18 10v18"/><path d="M14 36V24h20v12"/><path d="M6 36h36"/></svg>
                     </div>
-                    <h3>Продажа</h3>
-                    <p>Профессиональная оценка, маркетинг, фотосессия и поиск платёжеспособного покупателя.</p>
+                    <h3 data-i18n="home.services.sale.title">Продажа</h3>
+                    <p data-i18n="home.services.sale.desc">Профессиональная оценка, маркетинг, фотосессия и поиск платёжеспособного покупателя.</p>
                 </article>
 
                 <article class="card reveal">
                     <div class="card__icon">
                         <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 38l10-12 8 8 14-18"/><path d="M30 16h8v8"/></svg>
                     </div>
-                    <h3>Инвестиции</h3>
-                    <p>Стратегии с потенциалом доходности от 6,7% годовых: новостройки, аренда, перепродажа на стадии готовности.</p>
+                    <h3 data-i18n="home.services.invest.title">Инвестиции</h3>
+                    <p data-i18n="home.services.invest.desc">Стратегии с потенциалом доходности от 6,7% годовых: новостройки, аренда, перепродажа на стадии готовности.</p>
                 </article>
 
                 <article class="card reveal">
                     <div class="card__icon">
                         <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M14 6h20l8 10v26a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V16l8-10z"/><path d="M16 24l6 6 12-12"/></svg>
                     </div>
-                    <h3>Сопровождение</h3>
-                    <p>Юридическая проверка, оформление документов, перевод средств и регистрация сделки в DLD.</p>
+                    <h3 data-i18n="home.services.support.title">Сопровождение</h3>
+                    <p data-i18n="home.services.support.desc">Юридическая проверка, оформление документов, перевод средств и регистрация сделки в DLD.</p>
                 </article>
 
             </div>
@@ -265,39 +269,39 @@
     <section class="section why-dubai">
         <div class="container">
             <div class="section__head reveal">
-                <span class="eyebrow">Дубай 2026 в цифрах</span>
-                <h2 class="section__title">Почему рынок остаётся №1<br>для частного капитала</h2>
+                <span class="eyebrow" data-i18n="home.why.eyebrow">Дубай 2026 в цифрах</span>
+                <h2 class="section__title" data-i18n-html="home.why.title">Почему рынок остаётся №1<br>для частного капитала</h2>
             </div>
             <div class="why-dubai__grid">
 
                 <article class="metric reveal">
-                    <div class="metric__value">AED 682,5 млрд</div>
-                    <div class="metric__sub">$186 млрд</div>
-                    <p class="metric__desc">Общий объём сделок в Дубае за 2025 год — рекорд за всю историю рынка (+30,7% к 2024).</p>
+                    <div class="metric__value" data-i18n="home.why.m1.value">AED 682,5 млрд</div>
+                    <div class="metric__sub" data-i18n="home.why.m1.sub">$186 млрд</div>
+                    <p class="metric__desc" data-i18n="home.why.m1.desc">Общий объём сделок в Дубае за 2025 год — рекорд за всю историю рынка (+30,7% к 2024).</p>
                     <div class="metric__source">Dubai Land Department</div>
                 </article>
 
                 <article class="metric reveal">
                     <div class="metric__value">+25,1%</div>
-                    <p class="metric__desc">Рост цен в prime-сегменте за 2025 — 2-е место в мире после Токио.</p>
+                    <p class="metric__desc" data-i18n="home.why.m2.desc">Рост цен в prime-сегменте за 2025 — 2-е место в мире после Токио.</p>
                     <div class="metric__source">Knight Frank PIRI 100, 2026</div>
                 </article>
 
                 <article class="metric reveal">
                     <div class="metric__value">6,7–7,1%</div>
-                    <p class="metric__desc">Средняя валовая доходность от аренды — против 2–4% в Лондоне, Нью-Йорке, Сингапуре.</p>
+                    <p class="metric__desc" data-i18n="home.why.m3.desc">Средняя валовая доходность от аренды — против 2–4% в Лондоне, Нью-Йорке, Сингапуре.</p>
                     <div class="metric__source">Bayut Rental Market Report 2025</div>
                 </article>
 
                 <article class="metric reveal">
                     <div class="metric__value">0%</div>
-                    <p class="metric__desc">Подоходный налог для физлиц на доход от аренды и прирост капитала. Без CGT, без налога на наследство.</p>
+                    <p class="metric__desc" data-i18n="home.why.m4.desc">Подоходный налог для физлиц на доход от аренды и прирост капитала. Без CGT, без налога на наследство.</p>
                     <div class="metric__source">UAE Federal Tax Authority</div>
                 </article>
 
             </div>
             <div class="why-dubai__cta reveal">
-                <a href="#lead-magnet" class="btn btn--ghost">Получить персональную подборку →</a>
+                <a href="#lead-magnet" class="btn btn--ghost" data-i18n="home.why.cta">Получить персональную подборку →</a>
             </div>
         </div>
     </section>
@@ -305,8 +309,8 @@
     <section class="section cities">
         <div class="container">
             <div class="section__head reveal">
-                <span class="eyebrow">Где я работаю</span>
-                <h2 class="section__title">Два эмирата —<br>безграничные возможности</h2>
+                <span class="eyebrow" data-i18n="home.cities.eyebrow">Где я работаю</span>
+                <h2 class="section__title" data-i18n-html="home.cities.title">Два эмирата —<br>безграничные возможности</h2>
             </div>
             <div class="cities__grid">
 
@@ -314,10 +318,10 @@
                     <img class="city__img" src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1400&q=80" alt="Dubai skyline" loading="lazy">
                     <span class="city__overlay"></span>
                     <div class="city__body">
-                        <span class="city__label">Эмират</span>
-                        <h3 class="city__title">Дубай</h3>
-                        <p class="city__desc">Palm Jumeirah, Downtown, Marina, Business Bay и другие премиум-районы.</p>
-                        <span class="city__cta">Смотреть районы →</span>
+                        <span class="city__label" data-i18n="home.cities.label">Эмират</span>
+                        <h3 class="city__title" data-i18n="home.cities.dubai.title">Дубай</h3>
+                        <p class="city__desc" data-i18n="home.cities.dubai.desc">Palm Jumeirah, Downtown, Marina, Business Bay и другие премиум-районы.</p>
+                        <span class="city__cta" data-i18n="home.cities.cta">Смотреть районы →</span>
                     </div>
                 </a>
 
@@ -325,10 +329,10 @@
                     <img class="city__img" src="https://images.unsplash.com/photo-1546412414-e1885259563a?auto=format&fit=crop&w=1400&q=80" alt="Abu Dhabi corniche" loading="lazy">
                     <span class="city__overlay"></span>
                     <div class="city__body">
-                        <span class="city__label">Эмират</span>
-                        <h3 class="city__title">Абу-Даби</h3>
-                        <p class="city__desc">Saadiyat, Yas Island, Al Reem и другие острова и районы столицы.</p>
-                        <span class="city__cta">Смотреть районы →</span>
+                        <span class="city__label" data-i18n="home.cities.label">Эмират</span>
+                        <h3 class="city__title" data-i18n="home.cities.abu.title">Абу-Даби</h3>
+                        <p class="city__desc" data-i18n="home.cities.abu.desc">Saadiyat, Yas Island, Al Reem и другие острова и районы столицы.</p>
+                        <span class="city__cta" data-i18n="home.cities.cta">Смотреть районы →</span>
                     </div>
                 </a>
 
@@ -339,13 +343,13 @@
     <section class="section offmarket">
         <div class="container offmarket__inner">
             <div class="offmarket__head reveal">
-                <span class="eyebrow">Off-market доступ</span>
-                <h2 class="section__title">Доступ к объектам,<br>которых нет на порталах</h2>
+                <span class="eyebrow" data-i18n="home.off.eyebrow">Off-market доступ</span>
+                <h2 class="section__title" data-i18n-html="home.off.title">Доступ к объектам,<br>которых нет на порталах</h2>
             </div>
             <div class="offmarket__body reveal">
-                <p>30–50% сделок в премиум-сегменте Дубая ($10M+) проходят off-market — через прямые отношения брокера с девелоперами и частными владельцами. Это VIP-allocations до публичного launch (с дисконтом 5–20%), приоритет по этажам и видам, а также тихие resale-сделки от HNWI-клиентов.</p>
-                <p>Работаю с 20+ застройщиками ОАЭ напрямую. Среди партнёров — Emaar, DAMAC, Sobha, Nakheel, Meraas, Binghatti, Select Group, Ellington, Omniyat. Это означает доступ к pre-launch инвентарю Bvlgari Lighthouse, Six Senses Marina, Mercedes-Benz Places, Como Residences и другим знаковым проектам — до того, как они попадают на Bayut.</p>
-                <a href="#lead-magnet" class="btn btn--primary">Запросить off-market подборку</a>
+                <p data-i18n="home.off.p1">30–50% сделок в премиум-сегменте Дубая ($10M+) проходят off-market — через прямые отношения брокера с девелоперами и частными владельцами. Это VIP-allocations до публичного launch (с дисконтом 5–20%), приоритет по этажам и видам, а также тихие resale-сделки от HNWI-клиентов.</p>
+                <p data-i18n="home.off.p2">Работаю с 20+ застройщиками ОАЭ напрямую. Среди партнёров — Emaar, DAMAC, Sobha, Nakheel, Meraas, Binghatti, Select Group, Ellington, Omniyat. Это означает доступ к pre-launch инвентарю Bvlgari Lighthouse, Six Senses Marina, Mercedes-Benz Places, Como Residences и другим знаковым проектам — до того, как они попадают на Bayut.</p>
+                <a href="#lead-magnet" class="btn btn--primary" data-i18n="home.off.cta">Запросить off-market подборку</a>
             </div>
         </div>
     </section>
@@ -357,30 +361,30 @@
                 <div class="stat__num">
                     <span class="stat__value" data-count="4">0</span>
                 </div>
-                <div class="stat__label">года на рынке<br>недвижимости ОАЭ</div>
+                <div class="stat__label" data-i18n-html="home.stats.l1">года на рынке<br>недвижимости ОАЭ</div>
             </div>
 
             <div class="stat reveal">
                 <div class="stat__num">
                     <span class="stat__value" data-count="50">0</span><span class="stat__suffix">+</span>
                 </div>
-                <div class="stat__label">закрытых сделок с инвесторами<br>из России и СНГ</div>
+                <div class="stat__label" data-i18n-html="home.stats.l2">закрытых сделок с инвесторами<br>из России и СНГ</div>
             </div>
 
             <div class="stat reveal">
                 <div class="stat__num">
                     <span class="stat__value" data-count="20">0</span><span class="stat__suffix">+</span>
                 </div>
-                <div class="stat__label">застройщиков<br>в прямой работе</div>
+                <div class="stat__label" data-i18n-html="home.stats.l3">застройщиков<br>в прямой работе</div>
             </div>
 
             <div class="stat reveal">
                 <div class="stat__num stat__num--text">RERA</div>
-                <div class="stat__label">лицензированный брокер<br>Dubai Land Department</div>
+                <div class="stat__label" data-i18n-html="home.stats.l4">лицензированный брокер<br>Dubai Land Department</div>
             </div>
 
         </div>
-        <div class="container stats__note reveal">
+        <div class="container stats__note reveal" data-i18n="home.stats.note">
             Все сделки регистрируются в DLD и проходят через эскроу-счета согласно закону №8 о RERA.
         </div>
     </section>
@@ -388,49 +392,49 @@
     <section class="section lead-magnet" id="lead-magnet">
         <div class="container lead-magnet__inner">
             <div class="lead-magnet__head reveal">
-                <span class="eyebrow">Персональный подбор</span>
-                <h2 class="section__title">Подбор 3 объектов под вашу цель —<br>за 24 часа</h2>
-                <p class="lead-magnet__lead">Расскажите о бюджете и цели — пришлю персональную подборку с расчётом ROI, плана рассрочки и потенциала роста. Включая off-market объекты, которых нет на Bayut и PropertyFinder.</p>
+                <span class="eyebrow" data-i18n="home.lead.eyebrow">Персональный подбор</span>
+                <h2 class="section__title" data-i18n-html="home.lead.title">Подбор 3 объектов под вашу цель —<br>за 24 часа</h2>
+                <p class="lead-magnet__lead" data-i18n="home.lead.lead">Расскажите о бюджете и цели — пришлю персональную подборку с расчётом ROI, плана рассрочки и потенциала роста. Включая off-market объекты, которых нет на Bayut и PropertyFinder.</p>
             </div>
             <form class="lead-form reveal" id="leadForm" novalidate>
                 <div class="lead-form__row">
                     <label class="field">
-                        <span>Имя</span>
-                        <input type="text" name="name" id="lfName" required minlength="2" placeholder="Иван Иванов" autocomplete="name">
+                        <span data-i18n="form.name">Имя</span>
+                        <input type="text" name="name" id="lfName" required minlength="2" data-i18n-placeholder="form.namePh" placeholder="Иван Иванов" autocomplete="name">
                     </label>
                     <label class="field">
-                        <span>Бюджет</span>
+                        <span data-i18n="form.budget">Бюджет</span>
                         <select name="budget" id="lfBudget" required>
-                            <option value="">Выберите бюджет</option>
-                            <option>До $500K</option>
-                            <option>$500K – $1M</option>
-                            <option>$1M – $3M</option>
-                            <option>$3M – $10M</option>
-                            <option>$10M+</option>
+                            <option value="" data-i18n="form.budgetPh">Выберите бюджет</option>
+                            <option data-i18n="form.budget.up500">До $500K</option>
+                            <option data-i18n="form.budget.500to1m">$500K – $1M</option>
+                            <option data-i18n="form.budget.1mto3m">$1M – $3M</option>
+                            <option data-i18n="form.budget.3mto10m">$3M – $10M</option>
+                            <option data-i18n="form.budget.10mPlus">$10M+</option>
                         </select>
                     </label>
                 </div>
                 <div class="lead-form__row">
                     <label class="field">
-                        <span>Цель</span>
+                        <span data-i18n="form.goal">Цель</span>
                         <select name="goal" id="lfGoal" required>
-                            <option value="">Выберите цель</option>
-                            <option>Доход от аренды (cashflow)</option>
-                            <option>Прирост капитала / перепродажа</option>
-                            <option>Переезд + Golden Visa</option>
-                            <option>Сохранение капитала (trophy asset)</option>
+                            <option value="" data-i18n="form.goalPh">Выберите цель</option>
+                            <option data-i18n="form.goal.cashflow">Доход от аренды (cashflow)</option>
+                            <option data-i18n="form.goal.appreciation">Прирост капитала / перепродажа</option>
+                            <option data-i18n="form.goal.golden">Переезд + Golden Visa</option>
+                            <option data-i18n="form.goal.preservation">Сохранение капитала (trophy asset)</option>
                         </select>
                     </label>
                     <label class="field">
-                        <span>Контакт (телефон / WhatsApp)</span>
-                        <input type="tel" name="phone" id="lfPhone" required placeholder="+7 900 000 00 00" autocomplete="tel" inputmode="tel">
+                        <span data-i18n="form.contact">Контакт (телефон / WhatsApp)</span>
+                        <input type="tel" name="phone" id="lfPhone" required data-i18n-placeholder="form.contactPh" placeholder="+7 900 000 00 00" autocomplete="tel" inputmode="tel">
                     </label>
                 </div>
-                <button type="submit" class="btn btn--primary btn--large btn--full" id="leadSubmit" data-event="lead_magnet_submit">
+                <button type="submit" class="btn btn--primary btn--large btn--full" id="leadSubmit" data-event="lead_magnet_submit" data-i18n="home.lead.submit">
                     Получить подборку в WhatsApp
                 </button>
                 <div class="lead-form__status" id="leadFormStatus" aria-live="polite" role="status"></div>
-                <p class="lead-form__note">Конфиденциально. Не передаём контакты третьим лицам. Ответ в течение 4–6 часов в рабочее время Дубая (GMT+4).</p>
+                <p class="lead-form__note" data-i18n="home.lead.note">Конфиденциально. Не передаём контакты третьим лицам. Ответ в течение 4–6 часов в рабочее время Дубая (GMT+4).</p>
             </form>
         </div>
     </section>
@@ -438,50 +442,50 @@
     <section class="section faq">
         <div class="container faq__container">
             <div class="section__head reveal">
-                <span class="eyebrow">Частые вопросы</span>
-                <h2 class="section__title">Что важно знать<br>перед сделкой</h2>
+                <span class="eyebrow" data-i18n="home.faq.eyebrow">Частые вопросы</span>
+                <h2 class="section__title" data-i18n-html="home.faq.title">Что важно знать<br>перед сделкой</h2>
             </div>
             <div class="faq__list">
 
                 <details class="faq__item reveal">
-                    <summary>Какой минимальный бюджет имеет смысл рассматривать в Дубае?</summary>
+                    <summary data-i18n="home.faq.q1">Какой минимальный бюджет имеет смысл рассматривать в Дубае?</summary>
                     <div class="faq__answer">
-                        <p>От $500K — это вход в Jumeirah Village Circle (JVC) с доходностью 7,4–8,5% годовых и квалификация на 2-летнюю Investor Visa. От AED 2M ($545K) — порог для Golden Visa на 10 лет.</p>
+                        <p data-i18n="home.faq.a1">От $500K — это вход в Jumeirah Village Circle (JVC) с доходностью 7,4–8,5% годовых и квалификация на 2-летнюю Investor Visa. От AED 2M ($545K) — порог для Golden Visa на 10 лет.</p>
                     </div>
                 </details>
 
                 <details class="faq__item reveal">
-                    <summary>Как защищены деньги при покупке off-plan?</summary>
+                    <summary data-i18n="home.faq.q2">Как защищены деньги при покупке off-plan?</summary>
                     <div class="faq__answer">
-                        <p>По закону №8 от 2007 года все платежи поступают на проектный эскроу-счёт под надзором DLD. Девелопер не получает доступ к средствам до подтверждённых milestones, верифицированных независимым инженером и одобренных RERA. Незарегистрированный проект — это уголовная ответственность для девелопера.</p>
+                        <p data-i18n="home.faq.a2">По закону №8 от 2007 года все платежи поступают на проектный эскроу-счёт под надзором DLD. Девелопер не получает доступ к средствам до подтверждённых milestones, верифицированных независимым инженером и одобренных RERA. Незарегистрированный проект — это уголовная ответственность для девелопера.</p>
                     </div>
                 </details>
 
                 <details class="faq__item reveal">
-                    <summary>Какие реальные расходы при покупке сверх цены объекта?</summary>
+                    <summary data-i18n="home.faq.q3">Какие реальные расходы при покупке сверх цены объекта?</summary>
                     <div class="faq__answer">
-                        <p>4% DLD transfer fee, 2% брокерская комиссия (+5% VAT), AED 4 200 trustee fee, AED 580 title deed, при ипотеке — 0,25% регистрация ипотеки + 1% bank processing. Итого: 6–8% кэшем для готовой недвижимости, 8–9,5% с ипотекой. С 1 февраля 2025 банки больше не финансируют DLD-fee и комиссию в составе кредита.</p>
+                        <p data-i18n="home.faq.a3">4% DLD transfer fee, 2% брокерская комиссия (+5% VAT), AED 4 200 trustee fee, AED 580 title deed, при ипотеке — 0,25% регистрация ипотеки + 1% bank processing. Итого: 6–8% кэшем для готовой недвижимости, 8–9,5% с ипотекой. С 1 февраля 2025 банки больше не финансируют DLD-fee и комиссию в составе кредита.</p>
                     </div>
                 </details>
 
                 <details class="faq__item reveal">
-                    <summary>Какая реальная доходность от аренды после всех расходов?</summary>
+                    <summary data-i18n="home.faq.q4">Какая реальная доходность от аренды после всех расходов?</summary>
                     <div class="faq__answer">
-                        <p>Зависит от района. В Dubai Marina (long-term, AED 3M, 2BR) net yield составляет ~4,2% после service charges (AED 18/sqft), management fee 5%, vacancy buffer и страховки. В JVC чистая доходность выше — 5,5–6,5%. Short-term (Airbnb) даёт 8–11% gross в Downtown/Marina, но требует DET-лицензии и отнимает 20% на operator.</p>
+                        <p data-i18n="home.faq.a4">Зависит от района. В Dubai Marina (long-term, AED 3M, 2BR) net yield составляет ~4,2% после service charges (AED 18/sqft), management fee 5%, vacancy buffer и страховки. В JVC чистая доходность выше — 5,5–6,5%. Short-term (Airbnb) даёт 8–11% gross в Downtown/Marina, но требует DET-лицензии и отнимает 20% на operator.</p>
                     </div>
                 </details>
 
                 <details class="faq__item reveal">
-                    <summary>Можно ли купить недвижимость и получить Golden Visa, если я гражданин РФ?</summary>
+                    <summary data-i18n="home.faq.q5">Можно ли купить недвижимость и получить Golden Visa, если я гражданин РФ?</summary>
                     <div class="faq__answer">
-                        <p>Да. UAE не делает национальных ограничений на freehold. Порог — AED 2M (~$545K) на DLD-сертифицированную стоимость, 10 лет визы, без минимального срока пребывания, family sponsorship для супруга, детей без возрастных ограничений и родителей. Срок оформления — 5–7 недель. Допускается ипотека и off-plan от approved developers.</p>
+                        <p data-i18n="home.faq.a5">Да. UAE не делает национальных ограничений на freehold. Порог — AED 2M (~$545K) на DLD-сертифицированную стоимость, 10 лет визы, без минимального срока пребывания, family sponsorship для супруга, детей без возрастных ограничений и родителей. Срок оформления — 5–7 недель. Допускается ипотека и off-plan от approved developers.</p>
                     </div>
                 </details>
 
                 <details class="faq__item reveal">
-                    <summary>Как переводить деньги из России в 2026 году?</summary>
+                    <summary data-i18n="home.faq.q6">Как переводить деньги из России в 2026 году?</summary>
                     <div class="faq__answer">
-                        <p>Несколько compliant-путей: SWIFT через несанкционные банки РФ (Райффайзен, ЮниКредит, ОТП, Ренессанс), физический ввоз с обязательной декларацией от AED 60K, через VARA-licensed крипто-биржи (OKX, Binance FZE, Crypto.com) с конвертацией в AED. Все варианты требуют полного KYC и подтверждения SOF/SOW. Подбираю канал индивидуально под клиента.</p>
+                        <p data-i18n="home.faq.a6">Несколько compliant-путей: SWIFT через несанкционные банки РФ (Райффайзен, ЮниКредит, ОТП, Ренессанс), физический ввоз с обязательной декларацией от AED 60K, через VARA-licensed крипто-биржи (OKX, Binance FZE, Crypto.com) с конвертацией в AED. Все варианты требуют полного KYC и подтверждения SOF/SOW. Подбираю канал индивидуально под клиента.</p>
                     </div>
                 </details>
 
@@ -494,28 +498,29 @@
 <footer class="footer">
     <div class="container footer__grid">
         <div class="footer__col">
-            <div class="footer__title">Телефон</div>
+            <div class="footer__title" data-i18n="footer.phone">Телефон</div>
             <a href="tel:+971545441060" data-event="phone_click">+971 54 544 10 60</a>
             <a href="tel:+971555637955" data-event="phone_click">+971 55 563 79 55</a>
             <a href="https://wa.me/971545441060" target="_blank" rel="noopener" data-event="whatsapp_click" data-source="footer">WhatsApp</a>
         </div>
         <div class="footer__col">
-            <div class="footer__title">Социальные сети</div>
+            <div class="footer__title" data-i18n="footer.social">Социальные сети</div>
             <a href="https://t.me/Ruslan_Emirates" target="_blank" rel="noopener">Telegram · @Ruslan_Emirates</a>
             <a href="https://instagram.com/Ruslan_Emirates" target="_blank" rel="noopener">Instagram · @Ruslan_Emirates</a>
             <a href="mailto:asylgaraevra@gmail.com">asylgaraevra@gmail.com</a>
         </div>
         <div class="footer__col">
-            <div class="footer__title">Офис</div>
+            <div class="footer__title" data-i18n="footer.office">Офис</div>
             <p>Golden Mile 8,<br>Palm Jumeirah,<br>Dubai, UAE</p>
         </div>
     </div>
     <div class="container footer__bottom">
-        <span>© 2026. Все права защищены.</span>
+        <span data-i18n="footer.copyright">© 2026. Все права защищены.</span>
         <span>Dubai · United Arab Emirates</span>
     </div>
 </footer>
 
+<script src="i18n.js"></script>
 <script src="script.js"></script>
 </body>
 </html>

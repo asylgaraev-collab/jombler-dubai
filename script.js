@@ -2,6 +2,7 @@
     'use strict';
 
     const WHATSAPP_PHONE = '971545441060';
+    const t = (key) => (window.I18N && window.I18N.t) ? window.I18N.t(key) : key;
 
     // ----------------------------------------------
     // Header: change style on scroll
@@ -25,7 +26,7 @@
             const isOpen = nav.classList.toggle('is-open');
             burger.classList.toggle('is-open');
             burger.setAttribute('aria-expanded', String(isOpen));
-            burger.setAttribute('aria-label', isOpen ? 'Закрыть меню' : 'Открыть меню');
+            burger.setAttribute('aria-label', isOpen ? t('burger.closeLabel') : t('burger.openLabel'));
             document.body.style.overflow = isOpen ? 'hidden' : '';
         });
 
@@ -34,7 +35,7 @@
                 burger.classList.remove('is-open');
                 nav.classList.remove('is-open');
                 burger.setAttribute('aria-expanded', 'false');
-                burger.setAttribute('aria-label', 'Открыть меню');
+                burger.setAttribute('aria-label', t('burger.openLabel'));
                 document.body.style.overflow = '';
             });
         });
@@ -138,19 +139,19 @@
         const errors = [];
 
         if (!name.value.trim() || name.value.trim().length < 2) {
-            setError(name, true); errors.push('Укажите имя');
+            setError(name, true); errors.push(t('err.name'));
         } else setError(name, false);
 
         if (!budget.value) {
-            setError(budget, true); errors.push('Выберите бюджет');
+            setError(budget, true); errors.push(t('err.budget'));
         } else setError(budget, false);
 
         if (!goal.value) {
-            setError(goal, true); errors.push('Выберите цель');
+            setError(goal, true); errors.push(t('err.goal'));
         } else setError(goal, false);
 
         if (!phoneRegex.test(phone.value.trim())) {
-            setError(phone, true); errors.push('Проверьте формат телефона');
+            setError(phone, true); errors.push(t('err.phone'));
         } else setError(phone, false);
 
         return { ok: errors.length === 0, errors, values: {
@@ -175,20 +176,22 @@
             const { name, budget, goal, phone } = result.values;
 
             const message =
-                'Здравствуйте, Руслан! Меня зовут ' + name + '.\n' +
-                'Бюджет: ' + budget + '.\n' +
-                'Цель: ' + goal + '.\n' +
-                'Хотел(а) бы получить подборку из 3 объектов.\n' +
-                'Мой контакт: ' + phone + '.';
+                t('wa.lead.greet') + ' ' + name + '.\n' +
+                t('wa.lead.budget') + ' ' + budget + '.\n' +
+                t('wa.lead.goal') + ' ' + goal + '.\n' +
+                t('wa.lead.shortlist') + '\n' +
+                t('wa.lead.contact') + ' ' + phone + '.';
 
             const url = 'https://wa.me/' + WHATSAPP_PHONE + '?text=' + encodeURIComponent(message);
 
             trackEvent('lead_magnet_submit', { budget, goal });
 
             const opened = window.open(url, '_blank', 'noopener');
+            const linkHtml = '<a href="' + url + '" target="_blank" rel="noopener">' + t('wa.clickHere') + '</a>';
+            const manualHtml = '<a href="' + url + '" target="_blank" rel="noopener">' + t('wa.openManual') + '</a>';
             leadStatus.innerHTML = opened
-                ? 'Открываем WhatsApp… Если не открылся — <a href="' + url + '" target="_blank" rel="noopener">нажмите сюда</a>.'
-                : 'Не удалось открыть WhatsApp автоматически. <a href="' + url + '" target="_blank" rel="noopener">Открыть вручную</a>.';
+                ? t('wa.opening') + linkHtml + '.'
+                : t('wa.failed') + manualHtml + '.';
             leadStatus.className = 'lead-form__status is-success';
         });
 
@@ -211,14 +214,14 @@
             const message = document.getElementById('fMessage').value.trim();
 
             if (!name || !phone) {
-                alert('Пожалуйста, укажите имя и телефон.');
+                alert(t('err.namePhone'));
                 return;
             }
 
             const text =
-                'Здравствуйте! Меня зовут ' + name + '.\n' +
-                'Телефон: ' + phone + '.\n' +
-                (message ? 'Сообщение: ' + message : 'Хочу узнать подробнее о недвижимости в Дубае.');
+                t('wa.contact.greet') + ' ' + name + '.\n' +
+                t('wa.contact.phone') + ' ' + phone + '.\n' +
+                (message ? t('wa.contact.message') + ' ' + message : t('wa.contact.fallback'));
 
             const url = 'https://wa.me/' + WHATSAPP_PHONE + '?text=' + encodeURIComponent(text);
             trackEvent('contact_form_submit');
@@ -234,7 +237,7 @@
     sticky.target = '_blank';
     sticky.rel = 'noopener';
     sticky.className = 'sticky-wa';
-    sticky.setAttribute('aria-label', 'Написать в WhatsApp');
+    sticky.setAttribute('aria-label', t('sticky.aria'));
     sticky.dataset.event = 'whatsapp_click';
     sticky.dataset.source = 'sticky';
     sticky.innerHTML = '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.47 14.38c-.3-.15-1.74-.86-2.01-.96-.27-.1-.46-.15-.66.15-.2.3-.76.96-.93 1.16-.17.2-.34.22-.64.07-.3-.15-1.25-.46-2.38-1.47-.88-.78-1.47-1.75-1.64-2.05-.17-.3-.02-.46.13-.61.13-.13.3-.34.46-.51.15-.17.2-.3.3-.51.1-.2.05-.38-.02-.53-.07-.15-.66-1.6-.91-2.18-.24-.57-.48-.49-.66-.5-.17-.01-.37-.01-.56-.01-.2 0-.51.07-.78.38-.27.3-1.02 1-1.02 2.45s1.05 2.85 1.2 3.05c.15.2 2.07 3.16 5.02 4.43.7.3 1.25.48 1.68.62.7.22 1.34.19 1.85.12.57-.08 1.74-.71 1.99-1.4.24-.69.24-1.28.17-1.4-.07-.12-.27-.2-.56-.34zM12 2.04c-5.5 0-9.96 4.46-9.96 9.96 0 1.76.46 3.48 1.34 5l-1.42 5.18 5.31-1.39c1.46.8 3.1 1.22 4.74 1.22h.01c5.5 0 9.96-4.46 9.96-9.96 0-2.66-1.04-5.16-2.92-7.04C17.16 3.08 14.66 2.04 12 2.04z"/></svg>';
@@ -242,6 +245,14 @@
     sticky.addEventListener('click', () => trackEvent('whatsapp_click', { source: 'sticky' }));
 
     document.body.appendChild(sticky);
+
+    document.addEventListener('langchange', () => {
+        sticky.setAttribute('aria-label', t('sticky.aria'));
+        if (burger) {
+            const isOpen = burger.classList.contains('is-open');
+            burger.setAttribute('aria-label', isOpen ? t('burger.closeLabel') : t('burger.openLabel'));
+        }
+    });
 
     const onScrollSticky = () => {
         if (window.scrollY > 400) sticky.classList.add('is-visible');

@@ -286,6 +286,7 @@ ul { padding: 0; margin: 0; list-style: none; }
     display: flex;
     align-items: center;
     gap: 40px;
+    margin-left: auto;
 }
 
 .nav__link {
@@ -339,6 +340,60 @@ ul { padding: 0; margin: 0; list-style: none; }
 .burger.is-open span:nth-child(1) { transform: translateY(6.5px) rotate(45deg); }
 .burger.is-open span:nth-child(2) { opacity: 0; }
 .burger.is-open span:nth-child(3) { transform: translateY(-6.5px) rotate(-45deg); }
+
+/* ================================================
+   Language switcher
+   ================================================ */
+.lang-switch {
+    display: inline-flex;
+    align-items: center;
+    gap: 2px;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 3px;
+    background: rgba(255, 255, 255, 0.55);
+    flex-shrink: 0;
+}
+
+.header--scrolled .lang-switch {
+    background: rgba(255, 255, 255, 0.85);
+}
+
+.lang-btn {
+    font-family: 'Manrope', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--muted);
+    padding: 6px 12px;
+    border-radius: 999px;
+    transition: background .25s var(--transition), color .25s var(--transition);
+    line-height: 1;
+    min-width: 36px;
+    text-align: center;
+}
+
+.lang-btn:hover:not(.is-active) {
+    color: var(--ink);
+}
+
+.lang-btn.is-active {
+    background: var(--gold);
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .lang-switch {
+        margin-left: auto;
+        margin-right: 8px;
+    }
+    .lang-btn {
+        font-size: 10px;
+        padding: 5px 10px;
+        min-width: 32px;
+    }
+}
 
 /* ================================================
    Hero (homepage)
@@ -519,11 +574,12 @@ ul { padding: 0; margin: 0; list-style: none; }
     font-size: 16px;
 }
 
-.about__points li span {
+.about__points li > span:first-child {
     font-family: 'Playfair Display', serif;
     color: var(--gold);
     font-size: 16px;
     letter-spacing: .1em;
+    flex-shrink: 0;
 }
 
 /* ================================================
