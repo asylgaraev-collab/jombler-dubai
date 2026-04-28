@@ -20,13 +20,13 @@
 
             // META: home
             'meta.home.title': 'Недвижимость Дубай | Руслан Асылгараев — лицензированный брокер',
-            'meta.home.desc': 'Подбор премиальной недвижимости в Дубае. 4 года на рынке ОАЭ, 50+ закрытых сделок, прямые отношения с H&H, Select Group, Emaar, OMNIYAT, DAMAC, Sobha. Фокус на Luxury, Ultra-luxury и Ultra Prime — чек от $2M до $30M+.',
-            'meta.home.descShort': 'Лицензированный брокер премиальной недвижимости в Дубае. Сегменты Luxury, Ultra-luxury, Ultra Prime — от $2M до $30M+.',
+            'meta.home.desc': 'Лицензированный брокер премиальной недвижимости в Дубае. Большой опыт на рынке ОАЭ, прямые отношения с H&H, Select Group, Emaar, OMNIYAT и Mr. C. Сегменты Luxury, Ultra-luxury и Ultra Prime — от $1M до $30M+.',
+            'meta.home.descShort': 'Лицензированный брокер премиальной недвижимости в Дубае. Сегменты Luxury, Ultra-luxury и Ultra Prime — от $1M до $30M+.',
 
             // META: services
             'meta.services.title': 'Услуги брокера в Дубае | Покупка, продажа, инвестиции — Руслан Асылгараев',
-            'meta.services.desc': 'Услуги частного брокера в Дубае: покупка и продажа люксовой недвижимости, инвестиции, off-market сделки, сопровождение через DLD и эскроу. Прямая работа с Emaar, DAMAC, Sobha.',
-            'meta.services.descShort': 'Услуги частного брокера в Дубае: покупка, продажа, инвестиции, off-market.',
+            'meta.services.desc': 'Услуги лицензированного брокера в Дубае: покупка и продажа премиальной недвижимости, инвестиции, off-market сделки, сопровождение через DLD и эскроу. Прямая работа с H&H, Select Group, Emaar, OMNIYAT и Mr. C.',
+            'meta.services.descShort': 'Услуги лицензированного брокера в Дубае: покупка, продажа, инвестиции, off-market.',
 
             // META: dubai
             'meta.dubai.title': 'Недвижимость в Дубае по районам | Palm Jumeirah, Downtown, Marina',
@@ -39,22 +39,22 @@
             'meta.abu.descShort': 'Обзор районов Абу-Даби: Saadiyat, Yas, Al Reem и другие.',
 
             // META: contacts
-            'meta.contacts.title': 'Контакты | Руслан Асылгараев — частный брокер в Дубае',
+            'meta.contacts.title': 'Контакты | Руслан Асылгараев — лицензированный брокер в Дубае',
             'meta.contacts.desc': 'Свяжитесь с лицензированным брокером премиальной недвижимости в Дубае. WhatsApp +971 54 544 10 60, Telegram @Ruslan_Emirates, офис Palm Jumeirah, Golden Mile 8.',
             'meta.contacts.descShort': 'WhatsApp, Telegram, Instagram, email. Офис на Palm Jumeirah, Dubai.',
 
             // HOME: hero
             'home.hero.eyebrow': 'Premium Real Estate · Dubai · UAE',
             'home.hero.title': 'Ваш личный брокер<br>люксовой недвижимости<br>в Арабских Эмиратах',
-            'home.hero.lead': 'Лицензированный частный брокер. 4 года на рынке ОАЭ, 50+ закрытых сделок, прямые отношения с ключевыми застройщиками — H&H, Select Group, Emaar, OMNIYAT, DAMAC, Sobha. Фокус на Luxury, Ultra-luxury и Ultra Prime — чек от $2M до $30M+.',
-            'home.hero.ctaForm': 'Получить подборку за 24 часа',
+            'home.hero.lead': 'Лицензированный брокер с большим опытом на рынке недвижимости ОАЭ. Прямые отношения с H&H, Select Group, Emaar, OMNIYAT и Mr. C. Недвижимость класса Luxury, Ultra-luxury и Ultra Prime — от $1M до $30M+.',
+            'home.hero.ctaForm': 'Получить подборку',
             'home.hero.ctaWa': 'Написать в WhatsApp',
 
             // HOME: about
             'home.about.eyebrow': 'Обо мне',
             'home.about.title': 'Эксперт рынка<br>люксовой недвижимости',
-            'home.about.p1': 'Я — Руслан Асылгараев, частный лицензированный брокер. 4 года работаю с инвесторами и покупателями из России, СНГ и Европы. Закрыл 50+ сделок в Дубае и Абу-Даби — от инвестиционных апартаментов до пентхаусов на Palm Jumeirah.',
-            'home.about.p2': 'Сегодня я работаю в трёх сегментах — Luxury, Ultra-luxury и Ultra Prime. Чек от $2M до $30M+. Прямые отношения с ключевыми застройщиками: H&H, Select Group, Emaar, OMNIYAT, DAMAC, Sobha — а значит ранний доступ к аллокациям, лучшие этажи и виды до публичного launch.',
+            'home.about.p1': 'Я — Руслан Асылгараев, лицензированный брокер с большим опытом на рынке недвижимости ОАЭ. Работаю с инвесторами и покупателями из России, СНГ и Европы — от инвестиционных апартаментов до пентхаусов на Palm Jumeirah.',
+            'home.about.p2': 'Работаю в трёх сегментах — Luxury, Ultra-luxury и Ultra Prime, чек от $1M до $30M+. Прямые отношения с H&H, Select Group, Emaar, OMNIYAT и Mr. C дают ранний доступ к аллокациям, лучшие этажи и виды до публичного launch.',
             'home.about.point1': 'Прямой доступ к закрытому инвентарю 20+ застройщиков',
             'home.about.point2': 'Юридически чистые сделки через DLD и эскроу-счета',
             'home.about.point3': 'Стратегии для сохранения и роста капитала',
@@ -112,7 +112,7 @@
             'home.off.eyebrow': 'Off-market доступ',
             'home.off.title': 'Доступ к объектам,<br>которых нет на порталах',
             'home.off.p1': '30–50% сделок в премиум-сегменте Дубая ($10M+) проходят off-market — через прямые отношения брокера с девелоперами и частными владельцами. Это VIP-allocations до публичного launch (с дисконтом 5–20%), приоритет по этажам и видам, а также тихие resale-сделки от HNWI-клиентов.',
-            'home.off.p2': 'Работаю с 20+ застройщиками ОАЭ напрямую. Среди партнёров — Emaar, DAMAC, Sobha, Nakheel, Meraas, Binghatti, Select Group, Ellington, Omniyat. Это означает доступ к pre-launch инвентарю Bvlgari Lighthouse, Six Senses Marina, Mercedes-Benz Places, Como Residences и другим знаковым проектам — до того, как они попадают на Bayut.',
+            'home.off.p2': 'Работаю напрямую с ключевыми застройщиками ОАЭ. Среди партнёров — H&H, Select Group, Emaar, OMNIYAT, Mr. C, Nakheel, Meraas, Binghatti, Ellington. Это означает доступ к pre-launch инвентарю Bvlgari Lighthouse, Six Senses Marina, Mercedes-Benz Places, Como Residences и другим знаковым проектам — до того, как они попадают на Bayut.',
             'home.off.cta': 'Запросить off-market подборку',
 
             // HOME: stats
@@ -124,7 +124,7 @@
 
             // HOME: lead magnet form
             'home.lead.eyebrow': 'Персональный подбор',
-            'home.lead.title': 'Подбор 3 объектов под вашу цель —<br>за 24 часа',
+            'home.lead.title': 'Подбор 3 объектов<br>под вашу цель',
             'home.lead.lead': 'Расскажите о бюджете и цели — пришлю персональную подборку с расчётом ROI, плана рассрочки и потенциала роста. Включая off-market объекты, которых нет на Bayut и PropertyFinder.',
             'form.name': 'Имя',
             'form.namePh': 'Иван Иванов',
@@ -173,7 +173,7 @@
             'services.d2.title': 'Инвестиционные объекты',
             'services.d2.desc': 'Подбор недвижимости с высокой доходностью от аренды и роста капитализации. Анализ рынка, прогноз ROI, стратегии flip и buy-to-let. Помогаю клиентам зарабатывать на дубайском рынке.',
             'services.d3.title': 'Новостройки от застройщика',
-            'services.d3.desc': 'Прямые продажи от Emaar, DAMAC, Sobha, Nakheel, MERAAS, Select Group. Лучшие цены на старте, рассрочки до 8 лет, эксклюзивные предложения, закрытые превью проектов.',
+            'services.d3.desc': 'Прямые продажи от H&H, Select Group, Emaar, OMNIYAT, Mr. C, Nakheel, MERAAS. Лучшие цены на старте, рассрочки до 8 лет, эксклюзивные предложения, закрытые превью проектов.',
             'services.d4.title': 'Готовое жильё (secondary)',
             'services.d4.desc': 'Объекты на вторичном рынке с возможностью сразу заехать или сдать в аренду. Проверенные квартиры, виллы и таунхаусы с историей доходности и юридической чистотой.',
             'services.d5.title': 'Коммерческая недвижимость',
@@ -341,13 +341,13 @@
 
             // META: home
             'meta.home.title': 'Dubai Real Estate | Ruslan Asylgaraev — Licensed Broker',
-            'meta.home.desc': 'Curated premium Dubai real estate. 4 years in the UAE market, 50+ closed deals, direct relationships with H&H, Select Group, Emaar, OMNIYAT, DAMAC, Sobha. Focused on Luxury, Ultra-luxury and Ultra Prime — tickets from $2M to $30M+.',
-            'meta.home.descShort': 'Licensed Dubai broker for premium real estate. Luxury, Ultra-luxury and Ultra Prime segments — $2M to $30M+.',
+            'meta.home.desc': 'Licensed broker for premium Dubai real estate. Deep UAE market experience, direct relationships with H&H, Select Group, Emaar, OMNIYAT and Mr. C. Luxury, Ultra-luxury and Ultra Prime — from $1M to $30M+.',
+            'meta.home.descShort': 'Licensed Dubai broker for premium real estate. Luxury, Ultra-luxury and Ultra Prime — $1M to $30M+.',
 
             // META: services
             'meta.services.title': 'Dubai Broker Services | Buy, Sell, Invest — Ruslan Asylgaraev',
-            'meta.services.desc': 'Private broker services in Dubai: buying and selling luxury real estate, investments, off-market deals, end-to-end handling via DLD and escrow. Direct access to Emaar, DAMAC, Sobha.',
-            'meta.services.descShort': 'Private Dubai broker services: buy, sell, invest, off-market.',
+            'meta.services.desc': 'Licensed broker services in Dubai: buying and selling premium real estate, investments, off-market deals, end-to-end handling via DLD and escrow. Direct relationships with H&H, Select Group, Emaar, OMNIYAT and Mr. C.',
+            'meta.services.descShort': 'Licensed Dubai broker services: buy, sell, invest, off-market.',
 
             // META: dubai
             'meta.dubai.title': 'Dubai Real Estate by District | Palm Jumeirah, Downtown, Marina',
@@ -360,22 +360,22 @@
             'meta.abu.descShort': 'Abu Dhabi districts overview: Saadiyat, Yas, Al Reem and more.',
 
             // META: contacts
-            'meta.contacts.title': 'Contacts | Ruslan Asylgaraev — Private Broker in Dubai',
+            'meta.contacts.title': 'Contacts | Ruslan Asylgaraev — Licensed Broker in Dubai',
             'meta.contacts.desc': 'Get in touch with a licensed broker for premium Dubai real estate. WhatsApp +971 54 544 10 60, Telegram @Ruslan_Emirates, office on Palm Jumeirah, Golden Mile 8.',
             'meta.contacts.descShort': 'WhatsApp, Telegram, Instagram, email. Office on Palm Jumeirah, Dubai.',
 
             // HOME: hero
             'home.hero.eyebrow': 'Premium Real Estate · Dubai · UAE',
             'home.hero.title': 'Your private broker<br>for luxury real estate<br>in the United Arab Emirates',
-            'home.hero.lead': 'Licensed private broker. 4 years in the UAE market, 50+ closed deals, direct relationships with the key developers — H&H, Select Group, Emaar, OMNIYAT, DAMAC, Sobha. Focused on Luxury, Ultra-luxury and Ultra Prime — tickets from $2M to $30M+.',
-            'home.hero.ctaForm': 'Get a curated shortlist in 24 hours',
+            'home.hero.lead': 'Licensed broker with deep experience in UAE real estate. Direct relationships with H&H, Select Group, Emaar, OMNIYAT and Mr. C. Luxury, Ultra-luxury and Ultra Prime real estate — from $1M to $30M+.',
+            'home.hero.ctaForm': 'Get a curated shortlist',
             'home.hero.ctaWa': 'Message on WhatsApp',
 
             // HOME: about
             'home.about.eyebrow': 'About me',
             'home.about.title': 'A luxury real estate<br>market expert',
-            'home.about.p1': 'I’m Ruslan Asylgaraev, a private licensed broker. For 4 years I have been working with investors and buyers from Russia, the CIS and Europe. I have closed 50+ deals across Dubai and Abu Dhabi — from investment apartments to Palm Jumeirah penthouses.',
-            'home.about.p2': 'Today I work across three segments — Luxury, Ultra-luxury and Ultra Prime, with tickets from $2M to $30M+. Direct relationships with the key developers (H&H, Select Group, Emaar, OMNIYAT, DAMAC, Sobha) mean early access to allocations, the best floors and views before public launch.',
+            'home.about.p1': 'I’m Ruslan Asylgaraev, a licensed broker with deep experience in UAE real estate. I work with investors and buyers from Russia, the CIS and Europe — from investment apartments to Palm Jumeirah penthouses.',
+            'home.about.p2': 'I work across three segments — Luxury, Ultra-luxury and Ultra Prime, with tickets from $1M to $30M+. Direct relationships with H&H, Select Group, Emaar, OMNIYAT and Mr. C give early access to allocations, the best floors and views before public launch.',
             'home.about.point1': 'Direct access to closed inventory of 20+ developers',
             'home.about.point2': 'Legally clean transactions via DLD and escrow accounts',
             'home.about.point3': 'Strategies for capital preservation and growth',
@@ -433,7 +433,7 @@
             'home.off.eyebrow': 'Off-market access',
             'home.off.title': 'Properties not listed<br>on public portals',
             'home.off.p1': '30–50% of premium Dubai deals ($10M+) close off-market — through direct broker relationships with developers and private owners. That means VIP allocations before public launch (5–20% discount), priority on floors and views, and quiet resale deals from HNWI clients.',
-            'home.off.p2': 'I work directly with 20+ UAE developers. Partners include Emaar, DAMAC, Sobha, Nakheel, Meraas, Binghatti, Select Group, Ellington, Omniyat. That means access to pre-launch inventory at Bvlgari Lighthouse, Six Senses Marina, Mercedes-Benz Places, Como Residences and other landmark projects — before they hit Bayut.',
+            'home.off.p2': 'I work directly with the key UAE developers. Partners include H&H, Select Group, Emaar, OMNIYAT, Mr. C, Nakheel, Meraas, Binghatti, Ellington. That means access to pre-launch inventory at Bvlgari Lighthouse, Six Senses Marina, Mercedes-Benz Places, Como Residences and other landmark projects — before they hit Bayut.',
             'home.off.cta': 'Request off-market shortlist',
 
             // HOME: stats
@@ -445,7 +445,7 @@
 
             // HOME: lead magnet form
             'home.lead.eyebrow': 'Personal shortlist',
-            'home.lead.title': 'Three properties matched to your goal —<br>in 24 hours',
+            'home.lead.title': 'Three properties matched<br>to your goal',
             'home.lead.lead': 'Tell me your budget and goal — I will send a personal shortlist with ROI, payment plan and growth potential. Includes off-market properties not listed on Bayut or PropertyFinder.',
             'form.name': 'Name',
             'form.namePh': 'John Smith',
@@ -494,7 +494,7 @@
             'services.d2.title': 'Investment properties',
             'services.d2.desc': 'Properties with strong rental yield and capital growth potential. Market analysis, ROI projections, flip and buy-to-let strategies. I help clients earn on the Dubai market.',
             'services.d3.title': 'Off-plan from developers',
-            'services.d3.desc': 'Direct sales from Emaar, DAMAC, Sobha, Nakheel, MERAAS, Select Group. Best launch prices, payment plans up to 8 years, exclusive offers, closed project previews.',
+            'services.d3.desc': 'Direct sales from H&H, Select Group, Emaar, OMNIYAT, Mr. C, Nakheel, MERAAS. Best launch prices, payment plans up to 8 years, exclusive offers, closed project previews.',
             'services.d4.title': 'Ready (secondary) properties',
             'services.d4.desc': 'Resale market properties — move in or rent out immediately. Vetted apartments, villas and townhouses with a yield history and clean title.',
             'services.d5.title': 'Commercial real estate',
@@ -560,7 +560,7 @@
             'dubai.ul.disclaimer': 'Handover dates in Dubai are regularly revised — confirm the current status with DLD/RERA before any transaction. This document is informational only and does not constitute a public offer or investment advice.',
             'dubai.ul.downtown.desc': 'The city’s prime address cluster — Burj Khalifa, Dubai Opera, Dubai Mall. High concentration of ultra prime projects with global hotel brands.',
             'dubai.ul.business-bay.desc': 'Business district along the Dubai Water Canal. The epicentre of super-branded projects from the world’s house-of-luxury names (Dorchester Collection, Jumeirah Group, OMNIYAT, H&H).',
-            'dubai.ul.difc.desc': 'Dubai’s financial centre and the only zone under English common law. Focused on ultra prime projects from Waldorf Astoria, Ritz-Carlton, Four Seasons, Aman/Janu.',
+            'dubai.ul.difc.desc': 'Dubai’s financial centre and the only zone under English common law. Anchored by ultra prime projects from Waldorf Astoria, Ritz-Carlton, Four Seasons and Aman/Janu.',
             'dubai.ul.marina.desc': 'A mature, globally recognised waterfront district. Nearest handovers — Cavalli Tower (Q3 2025) and Ciel (2025).',
             'dubai.ul.palm.desc': 'Dubai’s most prestigious island. Dominated by Dorchester Collection-class ultra prime projects (AVA, ORLA, Orla Infinity), Six Senses, Ellington and exclusive boutique launches.',
             'dubai.ul.canal.desc': 'The canal cutting through Business Bay and Al Wasl/Jumeirah. Limited plot supply drives strong price growth. Key names — H&H Development and AHS Properties.',

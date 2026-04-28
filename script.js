@@ -334,8 +334,6 @@
         'marina': [
             { handover: { ru: 'Сдан (Q4 2022)', en: 'Delivered (Q4 2022)' }, name: 'Vida Residences Dubai Marina', developer: 'Emaar / Vida (Emaar Hospitality)', segment: 'Luxury',
               features: { ru: '300 резиденций на 57 этажах, 1–4BR, архитектура Killa Design, над Dubai Marina Yacht Club', en: '300 residences across 57 floors, 1–4BR, architecture by Killa Design, above Dubai Marina Yacht Club' } },
-            { handover: 'Q3 2025', name: 'Cavalli Tower', developer: 'DAMAC / Roberto Cavalli', segment: 'Ultra-luxury',
-              features: { ru: '~488 резиденций на 70 этажах, архитектор Shaun Killa, интерьеры Roberto Cavalli, лагуна Malibu Bay и flying villas с private pools', en: '~488 residences across 70 floors, architect Shaun Killa, Roberto Cavalli interiors, Malibu Bay lagoon and flying villas with private pools' } },
             { handover: '2025', name: 'Ciel Dubai Marina', developer: 'The First Group', segment: 'Luxury',
               features: { ru: '1004 номера на 82 этажах, 377 м — самый высокий отель в мире, архитектура NORR, Vignette Collection by IHG, infinity pool на 76 этаже', en: "1,004 keys across 82 floors, 377 m — world's tallest hotel, designed by NORR, Vignette Collection by IHG, infinity pool on level 76" } }
         ],
