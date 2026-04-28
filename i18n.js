@@ -19,9 +19,9 @@
             'footer.copyright': '© 2026. Все права защищены.',
 
             // META: home
-            'meta.home.title': 'Недвижимость Дубай | Руслан Асылгараев — RERA-лицензированный брокер',
-            'meta.home.desc': 'Подбор недвижимости в Дубае под инвестиции и Golden Visa. 4 года на рынке ОАЭ, 50+ сделок, прямая работа с Emaar, DAMAC, Sobha. Off-market объекты от $500K до $10M+.',
-            'meta.home.descShort': 'Подбор недвижимости в Дубае под инвестиции и Golden Visa. 4 года, 50+ сделок, off-market объекты от $500K.',
+            'meta.home.title': 'Недвижимость Дубай | Руслан Асылгараев — лицензированный брокер',
+            'meta.home.desc': 'Подбор премиальной недвижимости в Дубае. 4 года на рынке ОАЭ, 50+ закрытых сделок, прямые отношения с H&H, Select Group, Emaar, OMNIYAT, DAMAC, Sobha. Фокус на Luxury, Ultra-luxury и Ultra Prime — чек от $2M до $30M+.',
+            'meta.home.descShort': 'Лицензированный брокер премиальной недвижимости в Дубае. Сегменты Luxury, Ultra-luxury, Ultra Prime — от $2M до $30M+.',
 
             // META: services
             'meta.services.title': 'Услуги брокера в Дубае | Покупка, продажа, инвестиции — Руслан Асылгараев',
@@ -40,21 +40,21 @@
 
             // META: contacts
             'meta.contacts.title': 'Контакты | Руслан Асылгараев — частный брокер в Дубае',
-            'meta.contacts.desc': 'Свяжитесь с RERA-лицензированным брокером в Дубае. WhatsApp +971 54 544 10 60, Telegram @Ruslan_Emirates, офис Palm Jumeirah, Golden Mile 8.',
+            'meta.contacts.desc': 'Свяжитесь с лицензированным брокером премиальной недвижимости в Дубае. WhatsApp +971 54 544 10 60, Telegram @Ruslan_Emirates, офис Palm Jumeirah, Golden Mile 8.',
             'meta.contacts.descShort': 'WhatsApp, Telegram, Instagram, email. Офис на Palm Jumeirah, Dubai.',
 
             // HOME: hero
             'home.hero.eyebrow': 'Premium Real Estate · Dubai · UAE',
             'home.hero.title': 'Ваш личный брокер<br>люксовой недвижимости<br>в Арабских Эмиратах',
-            'home.hero.lead': 'RERA-лицензированный брокер. 4 года на рынке ОАЭ, 50+ закрытых сделок, прямая работа с 20+ застройщиками. Off-market объекты от $500K до $10M+.',
+            'home.hero.lead': 'Лицензированный частный брокер. 4 года на рынке ОАЭ, 50+ закрытых сделок, прямые отношения с ключевыми застройщиками — H&H, Select Group, Emaar, OMNIYAT, DAMAC, Sobha. Фокус на Luxury, Ultra-luxury и Ultra Prime — чек от $2M до $30M+.',
             'home.hero.ctaForm': 'Получить подборку за 24 часа',
             'home.hero.ctaWa': 'Написать в WhatsApp',
 
             // HOME: about
             'home.about.eyebrow': 'Обо мне',
             'home.about.title': 'Эксперт рынка<br>люксовой недвижимости',
-            'home.about.p1': 'Я — Руслан Асылгараев, частный брокер с лицензией RERA. 4 года работаю с инвесторами и покупателями из России, СНГ и Европы. Закрыл более 50 сделок в Дубае и Абу-Даби — от студий в JVC до пентхаусов на Palm Jumeirah.',
-            'home.about.p2': 'Подбираю объекты под задачу: жильё для жизни, инвестиционные апартаменты с высокой доходностью, проекты от застройщиков на старте продаж и off-market объекты от частных владельцев.',
+            'home.about.p1': 'Я — Руслан Асылгараев, частный лицензированный брокер. 4 года работаю с инвесторами и покупателями из России, СНГ и Европы. Закрыл 50+ сделок в Дубае и Абу-Даби — от инвестиционных апартаментов до пентхаусов на Palm Jumeirah.',
+            'home.about.p2': 'Сегодня я работаю в трёх сегментах — Luxury, Ultra-luxury и Ultra Prime. Чек от $2M до $30M+. Прямые отношения с ключевыми застройщиками: H&H, Select Group, Emaar, OMNIYAT, DAMAC, Sobha — а значит ранний доступ к аллокациям, лучшие этажи и виды до публичного launch.',
             'home.about.point1': 'Прямой доступ к закрытому инвентарю 20+ застройщиков',
             'home.about.point2': 'Юридически чистые сделки через DLD и эскроу-счета',
             'home.about.point3': 'Стратегии для сохранения и роста капитала',
@@ -93,6 +93,20 @@
             'home.cities.cta': 'Смотреть районы →',
             'home.cities.abu.title': 'Абу-Даби',
             'home.cities.abu.desc': 'Saadiyat, Yas Island, Al Reem и другие острова и районы столицы.',
+
+            // HOME: segments
+            'home.segments.eyebrow': 'Сегменты, в которых я работаю',
+            'home.segments.title': 'Luxury, Ultra-luxury<br>и Ultra Prime',
+            'home.segments.lead': 'Цена входа — лишь верхушка различий. Каждый сегмент имеет свой круг застройщиков, формат продукта и правила доступа.',
+            'home.segments.luxury.tier': 'Luxury',
+            'home.segments.luxury.price': 'от $1M до $3M',
+            'home.segments.luxury.desc': 'Premium-branded apartments в зрелых районах — Dubai Marina, Downtown, JBR. Concierge, wellness-club, отделка от международных дизайн-студий. 1–3-комнатные апартаменты и компактные пентхаусы — для быстрой ликвидности и стабильной yield 6–8%.',
+            'home.segments.ultra.tier': 'Ultra-luxury',
+            'home.segments.ultra.price': '$3M – $10M',
+            'home.segments.ultra.desc': 'Branded residences под управлением Six Senses, Bulgari, Cavalli, St. Regis. Hospitality-level сервис, signature designers — Killa Design, Foster + Partners, MZ Architects. Просторные планировки, прямой выход на пляж или канал, sky penthouses и full-floor резиденции.',
+            'home.segments.prime.tier': 'Ultra Prime',
+            'home.segments.prime.price': 'от $10M',
+            'home.segments.prime.desc': 'Trophy-объекты от Dorchester Collection, Aman/Janu, Bugatti, Baccarat. Архитектура — Studio Libeskind, Sir David Chipperfield, Foster + Partners. Лимитированные коллекции 17–50 резиденций: sky palaces, mansions, дуплекс-пентхаусы с private pools и приватными car lifts. Большая часть аллокаций — off-market, через прямые отношения с застройщиками.',
 
             // HOME: off-market
             'home.off.eyebrow': 'Off-market доступ',
@@ -326,9 +340,9 @@
             'footer.copyright': '© 2026. All rights reserved.',
 
             // META: home
-            'meta.home.title': 'Dubai Real Estate | Ruslan Asylgaraev — RERA-licensed Broker',
-            'meta.home.desc': 'Curated Dubai real estate for investment and the Golden Visa. 4 years in the UAE market, 50+ closed deals, direct access to Emaar, DAMAC, Sobha. Off-market properties from $500K to $10M+.',
-            'meta.home.descShort': 'Curated Dubai real estate for investment and the Golden Visa. 4 years, 50+ deals, off-market from $500K.',
+            'meta.home.title': 'Dubai Real Estate | Ruslan Asylgaraev — Licensed Broker',
+            'meta.home.desc': 'Curated premium Dubai real estate. 4 years in the UAE market, 50+ closed deals, direct relationships with H&H, Select Group, Emaar, OMNIYAT, DAMAC, Sobha. Focused on Luxury, Ultra-luxury and Ultra Prime — tickets from $2M to $30M+.',
+            'meta.home.descShort': 'Licensed Dubai broker for premium real estate. Luxury, Ultra-luxury and Ultra Prime segments — $2M to $30M+.',
 
             // META: services
             'meta.services.title': 'Dubai Broker Services | Buy, Sell, Invest — Ruslan Asylgaraev',
@@ -347,21 +361,21 @@
 
             // META: contacts
             'meta.contacts.title': 'Contacts | Ruslan Asylgaraev — Private Broker in Dubai',
-            'meta.contacts.desc': 'Get in touch with a RERA-licensed broker in Dubai. WhatsApp +971 54 544 10 60, Telegram @Ruslan_Emirates, office on Palm Jumeirah, Golden Mile 8.',
+            'meta.contacts.desc': 'Get in touch with a licensed broker for premium Dubai real estate. WhatsApp +971 54 544 10 60, Telegram @Ruslan_Emirates, office on Palm Jumeirah, Golden Mile 8.',
             'meta.contacts.descShort': 'WhatsApp, Telegram, Instagram, email. Office on Palm Jumeirah, Dubai.',
 
             // HOME: hero
             'home.hero.eyebrow': 'Premium Real Estate · Dubai · UAE',
             'home.hero.title': 'Your private broker<br>for luxury real estate<br>in the United Arab Emirates',
-            'home.hero.lead': 'RERA-licensed broker. 4 years in the UAE market, 50+ closed deals, direct access to 20+ developers. Off-market properties from $500K to $10M+.',
+            'home.hero.lead': 'Licensed private broker. 4 years in the UAE market, 50+ closed deals, direct relationships with the key developers — H&H, Select Group, Emaar, OMNIYAT, DAMAC, Sobha. Focused on Luxury, Ultra-luxury and Ultra Prime — tickets from $2M to $30M+.',
             'home.hero.ctaForm': 'Get a curated shortlist in 24 hours',
             'home.hero.ctaWa': 'Message on WhatsApp',
 
             // HOME: about
             'home.about.eyebrow': 'About me',
             'home.about.title': 'A luxury real estate<br>market expert',
-            'home.about.p1': 'I’m Ruslan Asylgaraev, a private RERA-licensed broker. For 4 years I have been working with investors and buyers from Russia, the CIS and Europe. I have closed 50+ deals across Dubai and Abu Dhabi — from JVC studios to Palm Jumeirah penthouses.',
-            'home.about.p2': 'I match properties to your goal: a home to live in, high-yield investment apartments, off-plan launches and off-market deals from private owners.',
+            'home.about.p1': 'I’m Ruslan Asylgaraev, a private licensed broker. For 4 years I have been working with investors and buyers from Russia, the CIS and Europe. I have closed 50+ deals across Dubai and Abu Dhabi — from investment apartments to Palm Jumeirah penthouses.',
+            'home.about.p2': 'Today I work across three segments — Luxury, Ultra-luxury and Ultra Prime, with tickets from $2M to $30M+. Direct relationships with the key developers (H&H, Select Group, Emaar, OMNIYAT, DAMAC, Sobha) mean early access to allocations, the best floors and views before public launch.',
             'home.about.point1': 'Direct access to closed inventory of 20+ developers',
             'home.about.point2': 'Legally clean transactions via DLD and escrow accounts',
             'home.about.point3': 'Strategies for capital preservation and growth',
@@ -400,6 +414,20 @@
             'home.cities.cta': 'View districts →',
             'home.cities.abu.title': 'Abu Dhabi',
             'home.cities.abu.desc': 'Saadiyat, Yas Island, Al Reem and other islands and districts of the capital.',
+
+            // HOME: segments
+            'home.segments.eyebrow': 'My segments',
+            'home.segments.title': 'Luxury, Ultra-luxury<br>and Ultra Prime',
+            'home.segments.lead': 'Price is only the surface. Each segment has a different roster of developers, a different product format and a different set of access rules.',
+            'home.segments.luxury.tier': 'Luxury',
+            'home.segments.luxury.price': '$1M – $3M',
+            'home.segments.luxury.desc': 'Premium-branded apartments in mature districts — Dubai Marina, Downtown, JBR. Concierge, wellness club, finishes by international design studios. 1–3-bedroom apartments and compact penthouses — for quick liquidity and stable 6–8% yield.',
+            'home.segments.ultra.tier': 'Ultra-luxury',
+            'home.segments.ultra.price': '$3M – $10M',
+            'home.segments.ultra.desc': 'Branded residences operated by Six Senses, Bulgari, Cavalli, St. Regis. Hospitality-level service, signature designers — Killa Design, Foster + Partners, MZ Architects. Generous floor plans, direct beach or canal access, sky penthouses and full-floor residences.',
+            'home.segments.prime.tier': 'Ultra Prime',
+            'home.segments.prime.price': '$10M+',
+            'home.segments.prime.desc': 'Trophy assets from Dorchester Collection, Aman/Janu, Bugatti, Baccarat. Architecture by Studio Libeskind, Sir David Chipperfield, Foster + Partners. Limited collections of 17–50 residences: sky palaces, mansions, duplex penthouses with private pools and private car lifts. Most allocations close off-market through direct developer relationships.',
 
             // HOME: off-market
             'home.off.eyebrow': 'Off-market access',

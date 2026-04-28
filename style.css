@@ -591,6 +591,64 @@ ul { padding: 0; margin: 0; list-style: none; }
     gap: 24px;
 }
 
+.segments .section__head { max-width: 760px; }
+.segments .section__head .section__lead,
+.segments .section__head p {
+    color: var(--muted);
+    font-size: 16px;
+    line-height: 1.65;
+    margin-top: 12px;
+}
+
+.segments__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 22px;
+}
+
+.segment-card {
+    background: var(--bg-2);
+    padding: 36px 32px;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    transition: transform .35s var(--transition), box-shadow .35s var(--transition), border-color .35s var(--transition);
+    display: flex;
+    flex-direction: column;
+}
+
+.segment-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-md);
+    border-color: transparent;
+}
+
+.segment-card--prime {
+    background: linear-gradient(180deg, rgba(201, 169, 97, .08) 0%, rgba(201, 169, 97, .02) 100%);
+    border-color: rgba(201, 169, 97, .3);
+}
+
+.segment-card__head {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    flex-wrap: wrap;
+    margin-bottom: 18px;
+}
+
+.segment-card__price {
+    color: var(--ink);
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 22px;
+    line-height: 1;
+}
+
+.segment-card__desc {
+    color: var(--muted);
+    font-size: 15px;
+    line-height: 1.7;
+    margin: 0;
+}
+
 .card {
     background: var(--bg-2);
     padding: 44px 36px;
