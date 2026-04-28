@@ -2000,6 +2000,9 @@ a.contact-row:hover .contact-row__icon {
 .ul-table tbody tr { transition: background .2s var(--transition); }
 .ul-table tbody tr:hover { background: rgba(201, 169, 97, .06); }
 
+.ul-table tbody tr.ul-row--delivered { background: rgba(201, 169, 97, .07); box-shadow: inset 3px 0 0 var(--gold); }
+.ul-table tbody tr.ul-row--delivered:hover { background: rgba(201, 169, 97, .14); }
+
 .ul-table .col-handover {
     color: var(--muted);
     white-space: nowrap;
@@ -2022,6 +2025,38 @@ a.contact-row:hover .contact-row__icon {
     color: var(--muted);
     max-width: 380px;
     font-size: 14px;
+}
+
+.ul-table .col-cta { white-space: nowrap; width: 1%; }
+
+.ul-cta-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 14px;
+    border: 1px solid var(--gold);
+    color: var(--ink);
+    background: transparent;
+    border-radius: 999px;
+    font-size: 12px;
+    letter-spacing: .04em;
+    font-family: 'Manrope', system-ui, sans-serif;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: background .2s var(--transition), color .2s var(--transition);
+    cursor: pointer;
+}
+.ul-cta-btn:hover { background: var(--gold); color: #FFFFFF; }
+.ul-completion {
+    display: inline-block;
+    margin-left: 6px;
+    padding: 2px 8px;
+    border-radius: 999px;
+    background: rgba(201, 169, 97, .14);
+    color: var(--ink);
+    font-size: 11px;
+    letter-spacing: .04em;
+    white-space: nowrap;
 }
 
 .ul-badge {
@@ -2103,6 +2138,13 @@ a.contact-row:hover .contact-row__icon {
         margin-bottom: 14px;
         box-shadow: var(--shadow-sm);
     }
+
+    .ul-card.ul-card--delivered {
+        background: rgba(201, 169, 97, .05);
+        border-left: 3px solid var(--gold);
+    }
+
+    .ul-card__cta { margin-top: 14px; align-self: flex-start; }
 
     .ul-card__head {
         display: flex;

@@ -293,7 +293,7 @@
             { handover: '2025', name: 'St. Regis The Residences (Financial Center)', developer: 'Emaar / Marriott', segment: 'Trophy',
               features: { ru: '402 резиденции в двух art-deco башнях 262 и 171 м, butler service от St. Regis, cigar lounge', en: '402 residences across two art-deco towers of 262 m and 171 m, signature St. Regis butler service, cigar lounge' } },
             { handover: '2025', name: 'Mercedes-Benz Places by Binghatti', developer: 'Binghatti', segment: 'Trophy',
-              features: { ru: '341 м, ~65 этажей, 150 резиденций и 5 пентхаусов, дизайн-DNA Mercedes-Benz, 75 000 sq ft фотовольтаики', en: "341 m supertall, ~65 floors, 150 residences plus 5 penthouses, Mercedes-Benz design DNA, 75,000 sq ft of photovoltaics" } },
+              features: { ru: '150 резиденций и 5 пентхаусов, 341 м / ~65 этажей, дизайн-DNA Mercedes-Benz, 75 000 sq ft фотовольтаики', en: "150 residences plus 5 penthouses, 341 m supertall / ~65 floors, Mercedes-Benz design DNA, 75,000 sq ft of photovoltaics" } },
             { handover: 'Q4 2026', name: 'Mr. C Residences Downtown', developer: 'Alta Real Estate / Cipriani', segment: 'Ultra-luxury',
               features: { ru: '162 резиденции на 71 этаже, Nobile Collection из 22 апартаментов на верхних этажах, Arquitectonica, интерьеры 1508 London', en: '162 residences across 71 floors, 22-unit Nobile Collection on upper floors, Arquitectonica architecture, interiors by 1508 London' } },
             { handover: '2026', name: 'Baccarat Hotel & Residences (Tower 1)', developer: 'Shamal Holding / H&H', segment: 'Trophy',
@@ -325,7 +325,7 @@
             { handover: 'Q2 2026', name: 'DIFC Heights Tower', developer: 'DIFC Development', segment: 'Ultra-luxury',
               features: { ru: '366 резиденций от 1BR до 4BR duplex, фасад с каллиграфией Маттара бин Лахеджа по поэзии шейха Мохаммеда, цель LEED Platinum, прямой выход на Gate Avenue', en: "366 residences from 1BR to 4BR duplexes, façade with Mattar bin Lahej calligraphy of Sheikh Mohammed's poetry, targeting LEED Platinum, direct link to Gate Avenue" } },
             { handover: 'Q3 2026', name: 'DIFC Living', developer: 'DIFC Authority', segment: 'Luxury',
-              features: { ru: 'Первый резиденциальный проект DIFC, 174 квартиры и лофты 1–3BR, infinity-бассейн, частный кинозал, прямой выход на Gate Avenue', en: "DIFC's first residential project, 174 apartments and lofts 1–3BR, infinity pool, private cinema, direct access to Gate Avenue" } },
+              features: { ru: '174 квартиры и лофты 1–3BR — первый резиденциальный проект DIFC, infinity-бассейн, частный кинозал, прямой выход на Gate Avenue', en: "174 apartments and lofts 1–3BR — DIFC's first residential project, infinity pool, private cinema, direct access to Gate Avenue" } },
             { handover: 'Q4 2027', name: 'Four Seasons Private Residences DIFC', developer: 'H&H Development', segment: 'Trophy',
               features: { ru: '59 резиденций включая 2 пентхауса с private pools от 1 145 кв.м, архитектор Sir David Chipperfield, интерьеры Tihany Design, целый 12-й этаж под amenities', en: '59 residences including 2 penthouses with private pools from 1,145 sqm, architect Sir David Chipperfield, interiors by Tihany Design, full 12th-floor amenities deck' } },
             { handover: '2027+', name: 'Janu Dubai', developer: 'Aman / H&H', segment: 'Trophy',
@@ -357,7 +357,7 @@
             { handover: 'Q4 2027', name: 'Orla Infinity by OMNIYAT', developer: 'OMNIYAT', segment: 'Trophy',
               features: { ru: '20 duplex-резиденций 4BR на 12 этажах, Foster + Partners, интерьеры YODEZEEN, бассейны до 18 м, Dorchester Collection', en: '20 4BR duplex residences across 12 floors, Foster + Partners, interiors by YODEZEEN, pools up to 18 m, Dorchester Collection' } },
             { handover: 'Q4 2027', name: 'Olaia Residences', developer: 'Gulf House Real Estate', segment: 'Ultra-luxury',
-              features: { ru: '1–3BR апартаменты и 3–5BR duplex (всего 34 duplex, 18 на верхнем этаже с private pool), 10 жилых этажей, private beach access', en: '1–3BR apartments and 3–5BR duplexes (34 duplexes total, 18 top-floor with private pool), 10 residential floors, private beach access' } }
+              features: { ru: '34 duplex 3–5BR (18 на верхнем этаже с private pool) + 1–3BR апартаменты, 10 жилых этажей, private beach access', en: '34 duplexes 3–5BR (18 top-floor with private pool) plus 1–3BR apartments, 10 residential floors, private beach access' } }
         ],
         'canal': [
             { handover: 'Q3 2025', name: 'One Canal', developer: 'AHS Properties / Fendi Casa', segment: 'Trophy',
@@ -365,7 +365,7 @@
             { handover: 'Q4 2025', name: 'Eden House The Canal', developer: 'H&H Development', segment: 'Ultra-luxury',
               features: { ru: '88 апартаментов, 7 вилл и 3 пентхауса, low-rise 6 этажей, архитектура DXB Lab в стиле круизного лайнера, Jumeirah-сторона канала', en: '88 apartments, 7 villas and 3 penthouses, low-rise 6 floors, DXB Lab cruise-liner-inspired architecture, Jumeirah side of the canal' } },
             { handover: 'Q1 2026', name: 'Casa Canal', developer: 'AHS Properties', segment: 'Trophy',
-              features: { ru: 'Проект $850 М, Killa Design + HBA, интерьеры Fendi Casa, 3BR пентхаусы, 4–5BR sky villas, 6BR sky mansions и 3 sky palaces, резиденции 4 500–30 000 sqft', en: '$850M project, Killa Design + HBA, Fendi Casa interiors, 3BR penthouses, 4–5BR sky villas, 6BR sky mansions and 3 sky palaces, residences 4,500–30,000 sqft' } },
+              features: { ru: '3 sky palaces + 6BR sky mansions, 4–5BR sky villas и 3BR пентхаусы (4 500–30 000 sqft), Killa Design + HBA, интерьеры Fendi Casa, проект $850 М', en: '3 sky palaces plus 6BR sky mansions, 4–5BR sky villas and 3BR penthouses (4,500–30,000 sqft), Killa Design + HBA, Fendi Casa interiors, $850M project' } },
             { handover: 'Q1 2027', name: 'Amali Residences', developer: 'Amali Properties / AHS', segment: 'Trophy',
               features: { ru: '211 резиденций на 48 этажах, private pool в каждой, потолки 5,5 м, Killa Design + HBA, 54 000+ sqft amenities', en: '211 residences across 48 floors, private pool in every unit, 5.5 m floor-to-floor, Killa Design + HBA, 54,000+ sqft of amenities' } },
             { handover: 'Q4 2027', name: 'Four Seasons Private Residences (Jumeirah/Canal)', developer: 'H&H Development', segment: 'Trophy',
@@ -392,6 +392,32 @@
         const escapeHtml = (s) => String(s).replace(/[&<>"']/g, (c) => ({
             '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
         }[c]));
+        const isDelivered = (p) => {
+            const h = p && p.handover;
+            if (!h || typeof h === 'string') return false;
+            return /^Сдан/.test(h.ru || '') || /^Delivered/.test(h.en || '');
+        };
+        const completionLabel = (p) => {
+            if (isDelivered(p)) return t('dubai.ul.completion.delivered');
+            if (typeof p.completion === 'number') {
+                const lang = window.I18N && window.I18N.getLang ? window.I18N.getLang() : 'ru';
+                return (lang === 'en' ? 'completion ' : 'готовность ') + p.completion + '%';
+            }
+            return '';
+        };
+        const ctaUrl = (p) => {
+            const text = t('dubai.ul.cta.text') + ' ' + p.name + '.';
+            return 'https://wa.me/971545441060?text=' + encodeURIComponent(text);
+        };
+        const ctaButton = (p, extraClass) => {
+            const cls = 'ul-cta-btn' + (extraClass ? ' ' + extraClass : '');
+            return '<a class="' + cls + '" href="' + escapeHtml(ctaUrl(p)) + '" target="_blank" rel="noopener">' + escapeHtml(t('dubai.ul.cta.btn')) + '</a>';
+        };
+        const featuresCell = (p) => {
+            const base = escapeHtml(pickLang(p.features));
+            const comp = completionLabel(p);
+            return base + (comp ? ' <span class="ul-completion">' + escapeHtml(comp) + '</span>' : '');
+        };
 
         function renderUltra() {
             Object.keys(ULTRA_DATA).forEach(key => {
@@ -402,13 +428,15 @@
 
                 const rowsHtml = items.map(p => {
                     const segCls = SEGMENT_CLASS[p.segment] || 'ul-badge--luxury';
+                    const trCls = isDelivered(p) ? ' class="ul-row--delivered"' : '';
                     return (
-                        '<tr>' +
+                        '<tr' + trCls + '>' +
                             '<td class="col-handover">' + escapeHtml(pickLang(p.handover)) + '</td>' +
                             '<td class="col-project">' + escapeHtml(p.name) + '</td>' +
                             '<td class="col-developer">' + escapeHtml(p.developer) + '</td>' +
                             '<td><span class="ul-badge ' + segCls + '">' + escapeHtml(p.segment) + '</span></td>' +
-                            '<td class="col-features">' + escapeHtml(pickLang(p.features)) + '</td>' +
+                            '<td class="col-features">' + featuresCell(p) + '</td>' +
+                            '<td class="col-cta">' + ctaButton(p) + '</td>' +
                         '</tr>'
                     );
                 }).join('');
@@ -416,15 +444,17 @@
 
                 const cardsHtml = items.map(p => {
                     const segCls = SEGMENT_CLASS[p.segment] || 'ul-badge--luxury';
+                    const cardCls = 'ul-card' + (isDelivered(p) ? ' ul-card--delivered' : '');
                     return (
-                        '<article class="ul-card">' +
+                        '<article class="' + cardCls + '">' +
                             '<div class="ul-card__head">' +
                                 '<div class="ul-card__name">' + escapeHtml(p.name) + '</div>' +
                                 '<span class="ul-badge ' + segCls + '">' + escapeHtml(p.segment) + '</span>' +
                             '</div>' +
                             '<div class="ul-card__row"><div class="ul-card__label">' + escapeHtml(colLabel('handover')) + '</div><div class="ul-card__value">' + escapeHtml(pickLang(p.handover)) + '</div></div>' +
                             '<div class="ul-card__row"><div class="ul-card__label">' + escapeHtml(colLabel('developer')) + '</div><div class="ul-card__value">' + escapeHtml(p.developer) + '</div></div>' +
-                            '<div class="ul-card__row"><div class="ul-card__label">' + escapeHtml(colLabel('features')) + '</div><div class="ul-card__value">' + escapeHtml(pickLang(p.features)) + '</div></div>' +
+                            '<div class="ul-card__row"><div class="ul-card__label">' + escapeHtml(colLabel('features')) + '</div><div class="ul-card__value">' + featuresCell(p) + '</div></div>' +
+                            ctaButton(p, 'ul-card__cta') +
                         '</article>'
                     );
                 }).join('');
