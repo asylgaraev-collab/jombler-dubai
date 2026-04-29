@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://jombler-dubai.netlify.app/sitemap.xml
+Sitemap: https://privedubai.com/sitemap.xml
