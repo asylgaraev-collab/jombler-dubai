@@ -71,18 +71,6 @@ ul { padding: 0; margin: 0; list-style: none; }
     color: var(--gold);
     font-weight: 500;
     margin-bottom: 24px;
-    position: relative;
-    padding-left: 44px;
-}
-
-.eyebrow::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 50%;
-    width: 32px;
-    height: 1px;
-    background: var(--gold);
 }
 
 .section {
@@ -96,16 +84,6 @@ ul { padding: 0; margin: 0; list-style: none; }
 
 .section__head .eyebrow {
     margin-bottom: 20px;
-}
-
-.section__head .eyebrow::before {
-    left: 50%;
-    transform: translateX(calc(-100% - 12px));
-}
-
-.section__head .eyebrow {
-    padding-left: 0;
-    padding: 0 0 0 44px;
 }
 
 .section__title {
@@ -274,12 +252,16 @@ ul { padding: 0; margin: 0; list-style: none; }
 }
 
 .logo__sub {
+    display: block;
     font-family: 'Manrope', sans-serif;
     font-size: 9px;
     letter-spacing: .25em;
     text-transform: uppercase;
     color: var(--muted);
     margin-top: 2px;
+    width: 100%;
+    text-align: justify;
+    text-align-last: justify;
 }
 
 .nav {
@@ -548,6 +530,72 @@ ul { padding: 0; margin: 0; list-style: none; }
     font-size: 18px;
     color: var(--muted);
     max-width: 640px;
+}
+
+/* ================================================
+   Intro section
+   ================================================ */
+.intro__body {
+    max-width: 760px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.intro__body p {
+    font-size: 17px;
+    line-height: 1.7;
+    color: var(--muted);
+    margin-bottom: 18px;
+}
+
+.intro__sub {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    color: var(--ink);
+    margin: 48px 0 24px;
+}
+
+.intro__list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 36px;
+    display: grid;
+    gap: 14px;
+    text-align: left;
+    max-width: 620px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro__list li {
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--muted);
+    padding-left: 22px;
+    position: relative;
+}
+
+.intro__list li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 12px;
+    width: 10px;
+    height: 1px;
+    background: var(--gold);
+}
+
+.intro__list strong {
+    color: var(--ink);
+    font-weight: 600;
+}
+
+.intro__cta {
+    margin-top: 36px;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 22px;
+    color: var(--ink);
 }
 
 /* ================================================
