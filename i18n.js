@@ -44,13 +44,14 @@
             'meta.contacts.descShort': 'WhatsApp, Telegram, Instagram, email. Офис на Palm Jumeirah, Dubai.',
 
             // HOME: hero
-            'home.hero.eyebrow': 'Premium Real Estate · Dubai · UAE',
+            'home.hero.eyebrow': 'Luxury Real Estate · Dubai · Abu Dhabi · UAE',
             'home.hero.title': 'Ваш личный брокер<br>люксовой недвижимости<br>в Арабских Эмиратах',
             'home.hero.cred1': 'Лицензированный брокер',
             'home.hero.cred2': 'Большой опыт на рынке недвижимости',
             'home.hero.cred3': 'Более 50 сделок на первичном и вторичном рынках',
             'home.hero.cred4': 'Прямые отношения с H&H, Select Group, Emaar, OMNIYAT, Mr. C, Muraba и другие',
             'home.hero.cred5': 'Недвижимость класса Luxury, Ultra-luxury и Ultra Prime — от $1M до $30M+',
+            'home.hero.cred6': 'Работа по всем Эмиратам — Дубай и Абу-Даби',
             'home.hero.tag': 'Доступ к лучшим проектам главных застройщиков Арабских Эмиратов',
             'home.hero.ctaForm': 'Получить подборку',
             'home.hero.ctaWa': 'Написать в WhatsApp',
@@ -370,13 +371,14 @@
             'meta.contacts.descShort': 'WhatsApp, Telegram, Instagram, email. Office on Palm Jumeirah, Dubai.',
 
             // HOME: hero
-            'home.hero.eyebrow': 'Premium Real Estate · Dubai · UAE',
+            'home.hero.eyebrow': 'Luxury Real Estate · Dubai · Abu Dhabi · UAE',
             'home.hero.title': 'Your private broker<br>for luxury real estate<br>in the United Arab Emirates',
             'home.hero.cred1': 'Licensed broker',
             'home.hero.cred2': 'Deep experience in UAE real estate',
             'home.hero.cred3': '50+ deals across primary and secondary markets',
             'home.hero.cred4': 'Direct relationships with H&H, Select Group, Emaar, OMNIYAT, Mr. C, Muraba and others',
             'home.hero.cred5': 'Luxury, Ultra-luxury and Ultra Prime — from $1M to $30M+',
+            'home.hero.cred6': 'Coverage across the UAE — Dubai and Abu Dhabi',
             'home.hero.tag': 'Access to the top projects of the leading UAE developers',
             'home.hero.ctaForm': 'Get a curated shortlist',
             'home.hero.ctaWa': 'Message on WhatsApp',
