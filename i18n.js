@@ -69,9 +69,9 @@
 
             // HOME: about
             'home.about.eyebrow': 'Обо мне',
-            'home.about.title': 'Эксперт рынка<br>люксовой недвижимости',
+            'home.about.title': 'Эксперт рынка<br>элитной недвижимости',
             'home.about.p1': 'Я — Руслан Асылгараев, лицензированный брокер с большим опытом на рынке недвижимости ОАЭ. Работаю с инвесторами и покупателями из России, СНГ и Европы — от инвестиционных апартаментов до пентхаусов на Palm Jumeirah.',
-            'home.about.p2': 'Работаю в трёх сегментах — Luxury, Ultra-luxury и Ultra Prime, чек от $1M до $30M+. Прямые отношения с H&H, Select Group, Emaar, OMNIYAT и Mr. C дают доступ к аллокациям, лучшим этажам и видам.',
+            'home.about.p2': 'Работаю в трёх сегментах — Luxury, Ultra-luxury и Ultra Prime. Прямые отношения с H&H, Select Group, Emaar, OMNIYAT и Mr. C дают доступ к аллокациям, лучшим этажам и видам.',
             'home.about.point1': 'Прямой доступ к закрытому инвентарю 20+ застройщиков',
             'home.about.point2': 'Юридически чистые сделки через DLD и эскроу-счета',
             'home.about.point3': 'Стратегии для сохранения и роста капитала',
@@ -409,7 +409,7 @@
             'home.about.eyebrow': 'About me',
             'home.about.title': 'A luxury real estate<br>market expert',
             'home.about.p1': 'I’m Ruslan Asylgaraev, a licensed broker with deep experience in UAE real estate. I work with investors and buyers from Russia, the CIS and Europe — from investment apartments to Palm Jumeirah penthouses.',
-            'home.about.p2': 'I work across three segments — Luxury, Ultra-luxury and Ultra Prime, with tickets from $1M to $30M+. Direct relationships with H&H, Select Group, Emaar, OMNIYAT and Mr. C give access to allocations, the best floors and views.',
+            'home.about.p2': 'I work across three segments — Luxury, Ultra-luxury and Ultra Prime. Direct relationships with H&H, Select Group, Emaar, OMNIYAT and Mr. C give access to allocations, the best floors and views.',
             'home.about.point1': 'Direct access to closed inventory of 20+ developers',
             'home.about.point2': 'Legally clean transactions via DLD and escrow accounts',
             'home.about.point3': 'Strategies for capital preservation and growth',
