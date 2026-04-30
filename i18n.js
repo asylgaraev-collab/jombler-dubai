@@ -227,13 +227,13 @@
 
             // ABOUT page
             'about.hero.eyebrow': 'Обо мне',
-            'about.hero.title': 'Лицензированный брокер<br>в Арабских Эмиратах',
+            'about.hero.title': 'Брокер в Арабских Эмиратах<br>с фокусом на качественные элитные проекты',
             'about.hero.lead': 'Руслан Асылгараев — ваш личный брокер в премиальном сегменте недвижимости Дубая и Абу-Даби.',
             'about.story.eyebrow': 'История и подход',
             'about.story.title': 'Опыт, проверенный годами',
             'about.story.p1': 'Лицензированный брокер с большим опытом на рынке недвижимости ОАЭ. Работаю с инвесторами и покупателями со всего мира — от первичной покупки до многомиллионных портфельных сделок.',
             'about.story.p2': 'Мой фокус — уникальные, редкие объекты высокого качества классов Luxury, Ultra-luxury и Ultra Prime. Это не массовый продукт, а тщательно отобранный инвентарь, в котором каждое предложение проходит личную проверку.',
-            'about.story.p3': 'Работа напрямую с застройщиками H&H, Select Group, Emaar, Ellington, OMNIYAT и Mr. C даёт доступ к закрытым аллокациям, лучшим этажам и видам — до публичного запуска проектов.',
+            'about.story.p3': 'Работа напрямую с застройщиками H&H, Select Group, Emaar, Ellington, OMNIYAT и Mr. C даёт доступ к закрытым аллокациям, лучшим проектам.',
             'about.story.p4': 'Провожу полный анализ как для покупателей, так и для продавцов недвижимости — от стратегии входа до плана выхода и расчёта доходности.',
             'about.story.p5': 'Профессиональный бэкграунд — 11 лет в инжиниринге и проектировании: нефтегазовая отрасль и гражданское строительство. Параллельно занимался ремонтом и реставрацией квартир. Это сформировало привычку оценивать недвижимость с технической стороны: качество исполнения, материалы и инженерные решения — то, что определяет, как объект поведёт себя через 5, 10 и 20 лет.',
             'about.story.p6': 'За годы жизни в Дубае удалось увидеть сотни строек разного уровня и детально изучить местный рынок со всеми его нюансами. Долговечность проекта зависит не только от имени застройщика, но и от контрактора — компании, которая его реально возводит. Качество материалов, соблюдение норм и грамотная инженерия проверяются до того, как объект попадает в подборку для клиента. Технический подход здесь органично соединяется с задачами брокера — подбором, покупкой и сопровождением сделки.',
@@ -602,13 +602,13 @@
 
             // ABOUT page
             'about.hero.eyebrow': 'About me',
-            'about.hero.title': 'Licensed broker<br>in the United Arab Emirates',
+            'about.hero.title': 'Broker in the United Arab Emirates<br>with a focus on quality elite projects',
             'about.hero.lead': 'Ruslan Asylgaraev — your private broker in the premium real estate segment of Dubai and Abu Dhabi.',
             'about.story.eyebrow': 'Story & approach',
             'about.story.title': 'Experience proven over the years',
             'about.story.p1': 'Licensed broker with deep experience in UAE real estate. I work with investors and buyers from around the world — from first purchase to multi-million-dollar portfolio deals.',
             'about.story.p2': 'My focus is unique, rare high-quality properties in the Luxury, Ultra-luxury and Ultra Prime segments. This is not a mass-market product — every offer is personally vetted.',
-            'about.story.p3': 'Direct work with developers H&H, Select Group, Emaar, Ellington, OMNIYAT and Mr. C gives access to closed allocations, the best floors and views — before public project launches.',
+            'about.story.p3': 'Direct work with developers H&H, Select Group, Emaar, Ellington, OMNIYAT and Mr. C gives access to closed allocations and the best projects.',
             'about.story.p4': 'I provide full analysis for both buyers and sellers of real estate — from entry strategy to exit plan and yield calculations.',
             'about.story.p5': 'My professional background spans 11 years in engineering and design — across the oil & gas industry and civil construction. Alongside, I worked on apartment renovation and restoration projects. This shaped a habit of assessing real estate from a technical angle: build quality, materials and engineering decisions — the things that determine how a property will behave 5, 10 and 20 years from now.',
             'about.story.p6': 'Years of living in Dubai have given me the chance to see hundreds of construction sites of varying quality and to study the local market in detail, with all its nuances. A project’s longevity depends not only on the developer’s name, but also on the contractor — the company that actually builds it. Material quality, code compliance and sound engineering are verified before a property reaches a client’s shortlist. The technical perspective integrates naturally with the broker’s work — sourcing, acquisition and transaction support.',
