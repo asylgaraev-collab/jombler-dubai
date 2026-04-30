@@ -403,14 +403,6 @@
             }
             return '';
         };
-        const ctaUrl = (p) => {
-            const text = t('dubai.ul.cta.text') + ' ' + p.name + '.';
-            return 'https://wa.me/971545441060?text=' + encodeURIComponent(text);
-        };
-        const ctaButton = (p, extraClass) => {
-            const cls = 'ul-cta-btn' + (extraClass ? ' ' + extraClass : '');
-            return '<a class="' + cls + '" href="' + escapeHtml(ctaUrl(p)) + '" target="_blank" rel="noopener">' + escapeHtml(t('dubai.ul.cta.btn')) + '</a>';
-        };
         const featuresCell = (p) => {
             const base = escapeHtml(pickLang(p.features));
             const comp = completionLabel(p);
@@ -434,7 +426,6 @@
                             '<td class="col-developer">' + escapeHtml(p.developer) + '</td>' +
                             '<td><span class="ul-badge ' + segCls + '">' + escapeHtml(p.segment) + '</span></td>' +
                             '<td class="col-features">' + featuresCell(p) + '</td>' +
-                            '<td class="col-cta">' + ctaButton(p) + '</td>' +
                         '</tr>'
                     );
                 }).join('');
@@ -452,7 +443,6 @@
                             '<div class="ul-card__row"><div class="ul-card__label">' + escapeHtml(colLabel('handover')) + '</div><div class="ul-card__value">' + escapeHtml(pickLang(p.handover)) + '</div></div>' +
                             '<div class="ul-card__row"><div class="ul-card__label">' + escapeHtml(colLabel('developer')) + '</div><div class="ul-card__value">' + escapeHtml(p.developer) + '</div></div>' +
                             '<div class="ul-card__row"><div class="ul-card__label">' + escapeHtml(colLabel('features')) + '</div><div class="ul-card__value">' + featuresCell(p) + '</div></div>' +
-                            ctaButton(p, 'ul-card__cta') +
                         '</article>'
                     );
                 }).join('');
