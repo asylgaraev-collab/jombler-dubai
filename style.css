@@ -156,17 +156,18 @@ ul { padding: 0; margin: 0; list-style: none; }
 }
 
 .btn--header-cta {
-    background: #25D366;
+    background: #0088cc;
     color: #fff;
-    border-color: #25D366;
-    padding: 12px 22px;
+    border-color: #0088cc;
+    padding: 10px 16px;
     font-size: 12px;
-    box-shadow: 0 6px 20px rgba(37, 211, 102, .25);
+    gap: 6px;
+    box-shadow: 0 4px 14px rgba(0, 136, 204, .25);
 }
 .btn--header-cta:hover {
-    background: #1FB955;
-    border-color: #1FB955;
-    box-shadow: 0 8px 24px rgba(37, 211, 102, .35);
+    background: #006fa3;
+    border-color: #006fa3;
+    box-shadow: 0 6px 18px rgba(0, 136, 204, .35);
     transform: translateY(-1px);
 }
 
@@ -1892,9 +1893,8 @@ a.contact-row:hover .contact-row__icon {
     .direction { gap: 40px; }
     .process__steps { grid-template-columns: repeat(2, 1fr); }
     .nav { gap: 24px; }
-    .btn--header-cta { padding: 10px 16px; font-size: 11px; }
+    .btn--header-cta { padding: 10px 12px; font-size: 11px; gap: 0; }
     .btn--header-cta span { display: none; }
-    .btn--header-cta::after { content: 'Написать'; }
     .districts__grid { grid-template-columns: repeat(2, 1fr); }
     .city { height: 460px; }
     .why-dubai__grid { grid-template-columns: repeat(2, 1fr); }
@@ -1942,9 +1942,9 @@ a.contact-row:hover .contact-row__icon {
     .btn--header-cta {
         padding: 16px 24px;
         font-size: 13px;
+        gap: 8px;
     }
     .btn--header-cta span { display: inline; }
-    .btn--header-cta::after { content: none; }
 
     .burger { display: flex; }
 
