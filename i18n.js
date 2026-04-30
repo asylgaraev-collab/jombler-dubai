@@ -227,7 +227,7 @@
 
             // ABOUT page
             'about.hero.eyebrow': 'Обо мне',
-            'about.hero.title': 'Брокер в Арабских Эмиратах<br>с фокусом на качественные элитные проекты',
+            'about.hero.title': 'Брокер в Арабских Эмиратах<br>с фокусом на качество и долговечность проектов',
             'about.hero.lead': 'Руслан Асылгараев — ваш личный брокер в премиальном сегменте недвижимости Дубая и Абу-Даби.',
             'about.story.eyebrow': 'История и подход',
             'about.story.title': 'Опыт, проверенный годами',
@@ -602,7 +602,7 @@
 
             // ABOUT page
             'about.hero.eyebrow': 'About me',
-            'about.hero.title': 'Broker in the United Arab Emirates<br>with a focus on quality elite projects',
+            'about.hero.title': 'Broker in the United Arab Emirates<br>with a focus on project quality and longevity',
             'about.hero.lead': 'Ruslan Asylgaraev — your private broker in the premium real estate segment of Dubai and Abu Dhabi.',
             'about.story.eyebrow': 'Story & approach',
             'about.story.title': 'Experience proven over the years',
