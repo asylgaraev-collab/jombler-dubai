@@ -253,7 +253,7 @@
             'about.creds6.title': 'Работа со всем миром',
             'about.creds6.desc': 'Клиенты из России, СНГ, Европы, Великобритании и Азии. Все этапы — удалённо или с очной встречей в Дубае.',
             'about.cta.title': 'Готовы обсудить вашу задачу?',
-            'about.cta.desc': 'Расскажите о бюджете и целях — отвечу в течение 30 минут в любом удобном для вас мессенджере.',
+            'about.cta.desc': 'Расскажите о бюджете и целях — отвечу в любом удобном для вас мессенджере.',
             'about.cta.btn': 'Написать в WhatsApp',
 
             // DUBAI
@@ -340,7 +340,7 @@
             // CONTACTS
             'contacts.hero.eyebrow': 'Контакты',
             'contacts.hero.title': 'Свяжитесь<br>со мной',
-            'contacts.hero.lead': 'Отвечу в течение 30 минут в любом удобном для вас мессенджере. Консультации бесплатны.',
+            'contacts.hero.lead': 'Отвечу в любом удобном для вас мессенджере. Консультации бесплатны.',
             'contacts.card.title': 'Прямой контакт',
             'contacts.row.phone': 'Телефон',
             'contacts.row.phoneWa': 'Телефон / WhatsApp',
@@ -628,7 +628,7 @@
             'about.creds6.title': 'Working worldwide',
             'about.creds6.desc': 'Clients from Russia, the CIS, Europe, the UK and Asia. All stages remotely or with in-person meetings in Dubai.',
             'about.cta.title': 'Ready to discuss your project?',
-            'about.cta.desc': 'Tell me your budget and goals — I’ll reply within 30 minutes on any messenger.',
+            'about.cta.desc': 'Tell me your budget and goals — I’ll reply on any messenger.',
             'about.cta.btn': 'Message on WhatsApp',
 
             // DUBAI
@@ -716,7 +716,7 @@
             // CONTACTS
             'contacts.hero.eyebrow': 'Contacts',
             'contacts.hero.title': 'Get in<br>touch',
-            'contacts.hero.lead': 'I reply within 30 minutes on any messenger. Consultations are free.',
+            'contacts.hero.lead': 'I reply on any messenger. Consultations are free.',
             'contacts.card.title': 'Direct contact',
             'contacts.row.phone': 'Phone',
             'contacts.row.phoneWa': 'Phone / WhatsApp',
