@@ -22,12 +22,12 @@
 
             // META: home
             'meta.home.title': 'Недвижимость Дубай | Руслан Асылгараев — лицензированный брокер',
-            'meta.home.desc': 'Лицензированный брокер премиальной недвижимости в Дубае. Большой опыт на рынке ОАЭ, прямые отношения с H&H, Select Group, Emaar, OMNIYAT и Mr. C. Сегменты Luxury, Ultra-luxury и Ultra Prime — от $1M до $30M+.',
+            'meta.home.desc': 'Лицензированный брокер премиальной недвижимости в Дубае. Большой опыт на рынке ОАЭ, прямые отношения с ведущими девелоперами Дубая и Абу-Даби в премиум-сегменте. Сегменты Luxury, Ultra-luxury и Ultra Prime — от $1M до $30M+.',
             'meta.home.descShort': 'Лицензированный брокер премиальной недвижимости в Дубае. Сегменты Luxury, Ultra-luxury и Ultra Prime — от $1M до $30M+.',
 
             // META: services
             'meta.services.title': 'Услуги брокера в Дубае | Покупка, продажа, инвестиции — Руслан Асылгараев',
-            'meta.services.desc': 'Услуги лицензированного брокера в Дубае: покупка и продажа премиальной недвижимости, инвестиции, off-market сделки, сопровождение через DLD и эскроу. Прямая работа с H&H, Select Group, Emaar, OMNIYAT и Mr. C.',
+            'meta.services.desc': 'Услуги лицензированного брокера в Дубае: покупка и продажа премиальной недвижимости, инвестиции, off-market сделки, сопровождение через DLD и эскроу. Прямая работа с ведущими девелоперами Дубая и Абу-Даби в премиум-сегменте.',
             'meta.services.descShort': 'Услуги лицензированного брокера в Дубае: покупка, продажа, инвестиции, off-market.',
 
             // META: dubai
@@ -42,7 +42,7 @@
 
             // META: about
             'meta.about.title': 'Обо мне | Руслан Асылгараев — лицензированный брокер в ОАЭ',
-            'meta.about.desc': 'Руслан Асылгараев — лицензированный брокер премиальной недвижимости в ОАЭ. Опыт работы на рынке Дубая и Абу-Даби, прямая работа с H&H, Select Group, Emaar, Ellington, OMNIYAT и Mr. C. Сегменты Luxury, Ultra-luxury и Ultra Prime.',
+            'meta.about.desc': 'Руслан Асылгараев — лицензированный брокер премиальной недвижимости в ОАЭ. Опыт работы на рынке Дубая и Абу-Даби, прямая работа с ведущими девелоперами в премиум-сегменте. Сегменты Luxury, Ultra-luxury и Ultra Prime.',
             'meta.about.descShort': 'Лицензированный брокер премиальной недвижимости в ОАЭ. Сегменты Luxury, Ultra-luxury и Ultra Prime.',
 
             // META: contacts
@@ -78,7 +78,7 @@
             'home.about.eyebrow': 'Обо мне',
             'home.about.title': 'Эксперт рынка<br>элитной недвижимости',
             'home.about.p1': 'Лицензированный брокер с большим опытом на рынке недвижимости ОАЭ. Работаю с инвесторами и покупателями со всего мира. Мой фокус — уникальные, редкие объекты высокого качества классов Luxury, Ultra-luxury, Ultra Prime.',
-            'home.about.p2': 'Работа напрямую с застройщиками H&H, Select Group, Emaar, Ellington, OMNIYAT и Mr. C. Провожу полный анализ как для покупателей, так и для продавцов недвижимости.',
+            'home.about.p2': 'Работа напрямую с ведущими девелоперами Дубая и Абу-Даби в премиум-сегменте. Провожу полный анализ как для покупателей, так и для продавцов недвижимости.',
             'home.about.point1': 'Прямой доступ к лучшим предложениям',
             'home.about.point2': 'Юридически чистые сделки через DLD и эскроу-счета',
             'home.about.point3': 'Стратегии для сохранения и роста капитала',
@@ -136,7 +136,7 @@
             'home.off.eyebrow': 'Off-market доступ',
             'home.off.title': 'Доступ к объектам,<br>которых нет на порталах',
             'home.off.p1': '30–50% сделок в премиум-сегменте Дубая ($10M+) проходят off-market — через прямые отношения брокера с девелоперами и частными владельцами. Это VIP-allocations до публичного launch (с дисконтом 5–20%), приоритет по этажам и видам, а также тихие resale-сделки от HNWI-клиентов.',
-            'home.off.p2': 'Работаю напрямую с ключевыми застройщиками ОАЭ. Среди партнёров — H&H, Select Group, Emaar, OMNIYAT, Mr. C, Nakheel, Meraas, Binghatti, Ellington. Это означает доступ к pre-launch инвентарю Bvlgari Lighthouse, Six Senses Marina, Mercedes-Benz Places, Como Residences и другим знаковым проектам — до того, как они попадают на Bayut.',
+            'home.off.p2': 'Работаю напрямую с ведущими девелоперами Дубая и Абу-Даби в премиум-сегменте. Это означает доступ к pre-launch инвентарю знаковых проектов — до того, как они попадают на Bayut.',
             'home.off.cta': 'Запросить off-market подборку',
 
             // HOME: stats
@@ -197,7 +197,7 @@
             'services.d2.title': 'Инвестиционные объекты',
             'services.d2.desc': 'Подбор недвижимости с высокой доходностью от аренды и роста капитализации. Анализ рынка, прогноз ROI, стратегии flip и buy-to-let. Помогаю клиентам зарабатывать на дубайском рынке.',
             'services.d3.title': 'Новостройки от застройщика',
-            'services.d3.desc': 'Прямые продажи от H&H, Select Group, Emaar, OMNIYAT, Mr. C, Nakheel, MERAAS. Лучшие цены на старте, рассрочки до 8 лет, эксклюзивные предложения, закрытые превью проектов.',
+            'services.d3.desc': 'Прямые продажи от ведущих девелоперов Дубая и Абу-Даби в премиум-сегменте. Лучшие цены на старте, рассрочки до 8 лет, эксклюзивные предложения, закрытые превью проектов.',
             'services.d4.title': 'Готовое жильё (secondary)',
             'services.d4.desc': 'Объекты на вторичном рынке с возможностью сразу заехать или сдать в аренду. Проверенные квартиры, виллы и таунхаусы с историей доходности и юридической чистотой.',
             'services.d5.title': 'Коммерческая недвижимость',
@@ -234,7 +234,7 @@
             'about.story.title': 'Опыт, проверенный годами',
             'about.story.p1': 'Лицензированный брокер с большим опытом на рынке недвижимости ОАЭ. Работаю с инвесторами и покупателями со всего мира — от первичной покупки до многомиллионных портфельных сделок.',
             'about.story.p2': 'Мой фокус — уникальные, редкие объекты высокого качества классов Luxury, Ultra-luxury и Ultra Prime. Это не массовый продукт, а тщательно отобранный инвентарь, в котором каждое предложение проходит личную проверку.',
-            'about.story.p3': 'Работа напрямую с застройщиками H&H, Select Group, Emaar, Ellington, OMNIYAT и Mr. C даёт доступ к закрытым аллокациям, лучшим проектам.',
+            'about.story.p3': 'Работа напрямую с ведущими девелоперами Дубая и Абу-Даби в премиум-сегменте даёт доступ к закрытым аллокациям, лучшим проектам.',
             'about.story.p4': 'Провожу полный анализ как для покупателей, так и для продавцов недвижимости — от стратегии входа до плана выхода и расчёта доходности.',
             'about.story.p5': 'Профессиональный бэкграунд — 11 лет в инжиниринге и проектировании: нефтегазовая отрасль и гражданское строительство. Параллельно занимался ремонтом и реставрацией квартир. Это сформировало привычку оценивать недвижимость с технической стороны: качество исполнения, материалы и инженерные решения — то, что определяет, как объект поведёт себя через 5, 10 и 20 лет.',
             'about.story.p6': 'За годы жизни в Дубае удалось увидеть сотни строек разного уровня и детально изучить местный рынок со всеми его нюансами. Долговечность проекта зависит не только от имени застройщика, но и от контрактора — компании, которая его реально возводит. Качество материалов, соблюдение норм и грамотная инженерия проверяются до того, как объект попадает в подборку для клиента. Технический подход здесь органично соединяется с задачами брокера — подбором, покупкой и сопровождением сделки.',
@@ -379,12 +379,12 @@
 
             // META: home
             'meta.home.title': 'Dubai Real Estate | Ruslan Asylgaraev — Licensed Broker',
-            'meta.home.desc': 'Licensed broker for premium Dubai real estate. Deep UAE market experience, direct relationships with H&H, Select Group, Emaar, OMNIYAT and Mr. C. Luxury, Ultra-luxury and Ultra Prime — from $1M to $30M+.',
+            'meta.home.desc': 'Licensed broker for premium Dubai real estate. Deep UAE market experience, direct relationships with leading premium developers in Dubai and Abu Dhabi. Luxury, Ultra-luxury and Ultra Prime — from $1M to $30M+.',
             'meta.home.descShort': 'Licensed Dubai broker for premium real estate. Luxury, Ultra-luxury and Ultra Prime — $1M to $30M+.',
 
             // META: services
             'meta.services.title': 'Dubai Broker Services | Buy, Sell, Invest — Ruslan Asylgaraev',
-            'meta.services.desc': 'Licensed broker services in Dubai: buying and selling premium real estate, investments, off-market deals, end-to-end handling via DLD and escrow. Direct relationships with H&H, Select Group, Emaar, OMNIYAT and Mr. C.',
+            'meta.services.desc': 'Licensed broker services in Dubai: buying and selling premium real estate, investments, off-market deals, end-to-end handling via DLD and escrow. Direct relationships with leading premium developers in Dubai and Abu Dhabi.',
             'meta.services.descShort': 'Licensed Dubai broker services: buy, sell, invest, off-market.',
 
             // META: dubai
@@ -399,7 +399,7 @@
 
             // META: about
             'meta.about.title': 'About | Ruslan Asylgaraev — Licensed UAE Real Estate Broker',
-            'meta.about.desc': 'Ruslan Asylgaraev — licensed broker for premium UAE real estate. Deep experience in Dubai and Abu Dhabi, direct work with H&H, Select Group, Emaar, Ellington, OMNIYAT and Mr. C. Luxury, Ultra-luxury and Ultra Prime segments.',
+            'meta.about.desc': 'Ruslan Asylgaraev — licensed broker for premium UAE real estate. Deep experience in Dubai and Abu Dhabi, direct work with leading premium developers. Luxury, Ultra-luxury and Ultra Prime segments.',
             'meta.about.descShort': 'Licensed broker for premium UAE real estate. Luxury, Ultra-luxury and Ultra Prime segments.',
 
             // META: contacts
@@ -435,7 +435,7 @@
             'home.about.eyebrow': 'About me',
             'home.about.title': 'A luxury real estate<br>market expert',
             'home.about.p1': 'Licensed broker with deep experience in UAE real estate. I work with investors and buyers from around the world. My focus is unique, rare high-quality properties in the Luxury, Ultra-luxury and Ultra Prime classes.',
-            'home.about.p2': 'Direct work with developers H&H, Select Group, Emaar, Ellington, OMNIYAT and Mr. C. I provide full analysis for both buyers and sellers of real estate.',
+            'home.about.p2': 'Direct work with leading premium developers in Dubai and Abu Dhabi. I provide full analysis for both buyers and sellers of real estate.',
             'home.about.point1': 'Direct access to the best offers',
             'home.about.point2': 'Legally clean transactions via DLD and escrow accounts',
             'home.about.point3': 'Strategies for capital preservation and growth',
@@ -493,7 +493,7 @@
             'home.off.eyebrow': 'Off-market access',
             'home.off.title': 'Properties not listed<br>on public portals',
             'home.off.p1': '30–50% of premium Dubai deals ($10M+) close off-market — through direct broker relationships with developers and private owners. That means VIP allocations before public launch (5–20% discount), priority on floors and views, and quiet resale deals from HNWI clients.',
-            'home.off.p2': 'I work directly with the key UAE developers. Partners include H&H, Select Group, Emaar, OMNIYAT, Mr. C, Nakheel, Meraas, Binghatti, Ellington. That means access to pre-launch inventory at Bvlgari Lighthouse, Six Senses Marina, Mercedes-Benz Places, Como Residences and other landmark projects — before they hit Bayut.',
+            'home.off.p2': 'I work directly with leading premium developers in Dubai and Abu Dhabi. That means access to pre-launch inventory of landmark projects — before they hit Bayut.',
             'home.off.cta': 'Request off-market shortlist',
 
             // HOME: stats
@@ -554,7 +554,7 @@
             'services.d2.title': 'Investment properties',
             'services.d2.desc': 'Properties with strong rental yield and capital growth potential. Market analysis, ROI projections, flip and buy-to-let strategies. I help clients earn on the Dubai market.',
             'services.d3.title': 'Off-plan from developers',
-            'services.d3.desc': 'Direct sales from H&H, Select Group, Emaar, OMNIYAT, Mr. C, Nakheel, MERAAS. Best launch prices, payment plans up to 8 years, exclusive offers, closed project previews.',
+            'services.d3.desc': 'Direct sales from leading premium developers in Dubai and Abu Dhabi. Best launch prices, payment plans up to 8 years, exclusive offers, closed project previews.',
             'services.d4.title': 'Ready (secondary) properties',
             'services.d4.desc': 'Resale market properties — move in or rent out immediately. Vetted apartments, villas and townhouses with a yield history and clean title.',
             'services.d5.title': 'Commercial real estate',
@@ -591,7 +591,7 @@
             'about.story.title': 'Experience proven over the years',
             'about.story.p1': 'Licensed broker with deep experience in UAE real estate. I work with investors and buyers from around the world — from first purchase to multi-million-dollar portfolio deals.',
             'about.story.p2': 'My focus is unique, rare high-quality properties in the Luxury, Ultra-luxury and Ultra Prime segments. This is not a mass-market product — every offer is personally vetted.',
-            'about.story.p3': 'Direct work with developers H&H, Select Group, Emaar, Ellington, OMNIYAT and Mr. C gives access to closed allocations and the best projects.',
+            'about.story.p3': 'Direct work with leading premium developers in Dubai and Abu Dhabi gives access to closed allocations and the best projects.',
             'about.story.p4': 'I provide full analysis for both buyers and sellers of real estate — from entry strategy to exit plan and yield calculations.',
             'about.story.p5': 'My professional background spans 11 years in engineering and design — across the oil & gas industry and civil construction. Alongside, I worked on apartment renovation and restoration projects. This shaped a habit of assessing real estate from a technical angle: build quality, materials and engineering decisions — the things that determine how a property will behave 5, 10 and 20 years from now.',
             'about.story.p6': 'Years of living in Dubai have given me the chance to see hundreds of construction sites of varying quality and to study the local market in detail, with all its nuances. A project’s longevity depends not only on the developer’s name, but also on the contractor — the company that actually builds it. Material quality, code compliance and sound engineering are verified before a property reaches a client’s shortlist. The technical perspective integrates naturally with the broker’s work — sourcing, acquisition and transaction support.',
