@@ -51,7 +51,7 @@
             'meta.contacts.descShort': 'WhatsApp, Telegram, Instagram, email. Офис на Palm Jumeirah, Dubai.',
 
             // HOME: hero
-            'home.hero.eyebrow': 'Luxury Real Estate · Dubai · Abu Dhabi · UAE',
+            'home.hero.eyebrow': 'Luxury Real Estate · Invest & Life · Dubai · Abu Dhabi',
             'home.hero.title': 'Ваш личный брокер<br>элитной недвижимости<br>в Арабских Эмиратах',
             'home.hero.cred1': 'Лицензированный брокер',
             'home.hero.cred2': 'Опыт на рынке недвижимости ОАЭ, сформированный годами',
@@ -431,7 +431,7 @@
             'meta.contacts.descShort': 'WhatsApp, Telegram, Instagram, email. Office on Palm Jumeirah, Dubai.',
 
             // HOME: hero
-            'home.hero.eyebrow': 'Luxury Real Estate · Dubai · Abu Dhabi · UAE',
+            'home.hero.eyebrow': 'Luxury Real Estate · Invest & Life · Dubai · Abu Dhabi',
             'home.hero.title': 'Your private broker<br>for luxury real estate<br>in the United Arab Emirates',
             'home.hero.cred1': 'Licensed broker',
             'home.hero.cred2': 'Years of experience in UAE real estate',
