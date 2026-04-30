@@ -628,7 +628,7 @@
             'about.creds4.title': 'Deal confidentiality',
             'about.creds4.desc': 'Full protection of client personal data and deal terms. Contracts and payments under NDA on request.',
             'about.creds5.title': 'Full analysis for buyer / seller',
-            'about.creds5.desc': 'ROI, payment plan, growth potential, district and project comparisons — at every stage of the deal.',
+            'about.creds5.desc': 'A full property analysis before every purchase. For investment buys — ROI, payment plan and growth potential. For owner-occupied — neighbourhood infrastructure: parks, schools, hospitals, transport access. For sellers — market assessment and exit strategy.',
             'about.creds6.title': 'Working worldwide',
             'about.creds6.desc': 'Clients from Russia, the CIS, Europe, the UK, the USA, Canada and Asia. All stages remotely or with in-person meetings in Dubai.',
             'about.creds7.title': 'End-to-end support',
